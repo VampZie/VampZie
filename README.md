@@ -30,20 +30,26 @@
     text-shadow:
       0 0 8px #f7a8b8,
       0 0 16px #a259f7,
-      0 0 24px #a259f7;
-    ">
-    M.Sc. Bioinformatics Student at Central University of Punjab
+      0 0 24px #a259f7;">
+    Bioinformatics Explorer | ML in Genomics | NGS Enthusiast
   </span>
 </p>
 
-<ul>
-  <li><b>Focus Areas:</b> Machine Learning applications in computational biology, Genomics, DNA encoding/decoding</li>
-  <li><b>Collaboration Interests:</b> ML for biological datasets, Bioinformatics pipelines, NGS data analysis</li>
-  <li><b>Seeking Collaboration/Help With:</b> Advanced ML workflows, NGS (Next-Generation Sequencing) work</li>
-  <li><b>Contact:</b> <a href="https://www.linkedin.com/in/vidit-zainith-196960319">LinkedIn</a> | viditzainith@gmail.com</li>
-  <li><b>Interests:</b> Photography, Horizon Zero Dawn, Dying Light 2</li>
-</ul>
+---
 
+As an <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am passionate about unraveling the secrets of life through the synergy of computational power and biological insight. My academic journey is centered at the intersection of <b>machine learning</b> and <b>genomics</b>, where I strive to turn complex data into meaningful biological discoveries.
+
+- <b>🔬 Focus Areas:</b> Advanced machine learning for biological data, genomics, DNA encoding & decoding
+- <b>🤝 Collaboration:</b> ML for biological datasets, bioinformatics pipelines, NGS data analysis
+- <b>🚀 Open to:</b> Collaborating on innovative ML workflows, cutting-edge NGS projects
+- <b>📫 Connect:</b> <a href="https://www.linkedin.com/in/vidit-zainith-196960319">LinkedIn</a> | viditzainith@gmail.com
+- <b>🎮 Outside the lab:</b> Photography enthusiast & passionate gamer (Horizon Zero Dawn, Dying Light 2)
+
+---
+
+<blockquote>
+  <i>"Driven by curiosity, powered by code, and inspired by the endless mysteries of biology."</i>
+</blockquote>
 ---
 
 ## 🚀 Tools, Languages & Tech
