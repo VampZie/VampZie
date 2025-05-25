@@ -51,7 +51,7 @@ As an <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am 
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,r,linux,bash,tensorflow,pytorch,jupyter,github,git,html,cpp,vscode" />
-  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/pandas.svg" width="40" title="pandas" style="vertical-align:middle; margin-left:8px;" />
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pandas.svg" width="40" title="pandas" style="vertical-align:middle; margin-left:8px;"/>
 </p>
 
 <p align="center">
