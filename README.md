@@ -23,33 +23,31 @@
 ## 🧬 About Me
 
 <p align="center">
-  <span style="
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #a259f7;
-    text-shadow:
-      0 0 8px #f7a8b8,
-      0 0 16px #a259f7,
-      0 0 24px #a259f7;">
-    Bioinformatics Explorer | ML in Genomics | NGS Enthusiast
-  </span>
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="60" style="vertical-align:middle" />
 </p>
 
----
+<p align="center">
+  <b>
+    <span style="color:#a259f7;">
+      Bioinformatics Explorer | ML in Genomics | NGS Enthusiast
+    </span>
+  </b>
+</p>
 
 As an <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am passionate about unraveling the secrets of life through the synergy of computational power and biological insight. My academic journey is centered at the intersection of <b>machine learning</b> and <b>genomics</b>, where I strive to turn complex data into meaningful biological discoveries.
 
-- <b>🔬 Focus Areas:</b> Advanced machine learning for biological data, genomics, DNA encoding & decoding
-- <b>🤝 Collaboration:</b> ML for biological datasets, bioinformatics pipelines, NGS data analysis
-- <b>🚀 Open to:</b> Collaborating on innovative ML workflows, cutting-edge NGS projects
-- <b>📫 Connect:</b> <a href="https://www.linkedin.com/in/vidit-zainith-196960319">LinkedIn</a> | viditzainith@gmail.com
+- <b>🔬 Focus Areas:</b> Advanced machine learning for biological data, genomics, DNA encoding & decoding  
+- <b>🤝 Collaboration:</b> ML for biological datasets, bioinformatics pipelines, NGS data analysis  
+- <b>🚀 Open to:</b> Collaborating on innovative ML workflows, cutting-edge NGS projects  
+- <b>📫 Connect:</b> <a href="https://www.linkedin.com/in/vidit-zainith-196960319">LinkedIn</a> | viditzainith@gmail.com  
 - <b>🎮 Outside the lab:</b> Photography enthusiast & passionate gamer (Horizon Zero Dawn, Dying Light 2)
 
 ---
 
-<blockquote>
+<blockquote align="center">
   <i>"Driven by curiosity, powered by code, and inspired by the endless mysteries of biology."</i>
 </blockquote>
+
 ---
 
 ## 🚀 Tools, Languages & Tech
@@ -72,21 +70,21 @@ As an <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am 
 <table>
   <tr>
     <td align="center">
-      <span style="font-size:48px;display:inline-block;animation:bounce 2s infinite;">🧬</span>
+      <img src="https://img.icons8.com/color/96/dna.png" width="48" alt="DNA Icon"/>
       <br />
       <b>ML Pipeline for DNA Decoding</b>
       <br />
       <sub>AI-driven DNA sequence analysis</sub>
     </td>
     <td align="center">
-      <span style="font-size:48px;display:inline-block;animation:pulse 2s infinite;">🧫</span>
+      <img src="https://img.icons8.com/color/96/test-tube.png" width="48" alt="Test Tube Icon"/>
       <br />
       <b>Genomics Data Toolkit</b>
       <br />
       <sub>End-to-end genomics data analysis</sub>
     </td>
     <td align="center">
-      <span style="font-size:48px;display:inline-block;animation:bounce 2s infinite;">📊</span>
+      <img src="https://img.icons8.com/color/96/combo-chart--v1.png" width="48" alt="Chart Icon"/>
       <br />
       <b>NGS Data Visualization</b>
       <br />
