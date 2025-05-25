@@ -20,14 +20,66 @@
 
 ---
 
-## 🧬 About Me
+## ✨🧬 About Me — Bioinformatics by Day, Gamer by Night! 🦇✨
 
-- 🏛️ **M.Sc. Bioinformatics Student** @ Central University of Punjab  
-- 🧪 **Focus:** Machine Learning in computational biology, Genomics, DNA encoding/decoding  
-- 👯 **Collaboration Interests:** ML for biological datasets, Bioinformatics pipelines, NGS data analysis  
-- 🤝 **Looking For Help With:** Advanced ML workflows, NGS work  
-- 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/vidit-zainith-196960319) | viditzainith@gmail.com  
-- 🎮 **Fun fact:** Sometimes I do photography and play Horizon Zero Dawn and Dying Light 2
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=500&color=F7A8B8&vCenter=true&width=600&lines=🔬+Decoding+Life+with+Code+and+Curiosity;🌟+M.Sc.+Bioinformatics+Student+%7C+Genomics+Enthusiast;⚡+Machine+Learning+in+Biology+%7C+NGS+Explorer;🧬+Turning+Data+into+Discovery" alt="Typing SVG" />
+</p>
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="100" style="border-radius:50%; box-shadow:0 0 30px #a259f7, 0 0 50px #f7a8b8;" alt="glow" />
+
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/M.Sc._Bioinformatics-Central_University_of_Punjab-8e44ad?style=for-the-badge&logo=academia&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-ML_in_Biology-ff79c6?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Collab-NGS_&_Pipelines-00b894?style=for-the-badge" />
+</p>
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/3o6ZtpxSZbQRRnwCKQ/giphy.gif" width="140" alt="sparkle"/>
+
+</div>
+
+<table>
+  <tr>
+    <td>
+      <img src="https://media.giphy.com/media/1xVhmTgYh7y7w/giphy.gif" width="32" align="absmiddle"/>
+      <b>🧬 Focus:</b> <span style="color:#A259F7;">Machine Learning</span> in computational biology, Genomics, DNA encoding/decoding
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://media.giphy.com/media/l0MYGb1LuZ3n7dRnO/giphy.gif" width="32" align="absmiddle"/>
+      <b>🤝 Collab:</b> <span style="color:#F7A8B8;">ML for biological datasets, Bioinformatics pipelines, NGS data analysis</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://media.giphy.com/media/3o7abB06u9bNzA8lu8/giphy.gif" width="32" align="absmiddle"/>
+      <b>🚀 Seeking:</b> <span style="color:#00b894;">Advanced ML workflows, NGS work</span>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://media.giphy.com/media/26u4nJPf0JtQPdStq/giphy.gif" width="32" align="absmiddle"/>
+      <b>📬 Contact:</b> <a href="https://www.linkedin.com/in/vidit-zainith-196960319">LinkedIn</a> | <a href="mailto:viditzainith@gmail.com">Email</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="32" align="absmiddle"/>
+      <b>🎮 Goodies:</b> Sometimes behind the lens 📸, sometimes exploring <b>Horizon Zero Dawn</b> & <b>Dying Light 2</b> 🎮
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3og0IPxMM0erATueVW/giphy.gif" width="100" alt="sparkle"/>
+</p>
 
 ---
 
