@@ -1,4 +1,4 @@
-# 👋 Hi, I'm VampZie!
+# 👋 Hi, I'm VampZie! ( Officially - VIDIT ZAINITH )
 
 ---
 
