@@ -22,9 +22,6 @@
 
 ## 🧬 About Me
 
-<p align="center">
-  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="60" style="vertical-align:middle" />
-</p>
 
 <p align="center">
   <b>
