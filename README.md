@@ -109,10 +109,6 @@ As an <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am 
 
 ## 🎮 Hobbies & Fun
 
-<p align="center">
-  <img src="https://media.giphy.com/media/6brH8K2q6cF3F5vKQK/giphy.gif" width="100"/>
-  <img src="https://media.giphy.com/media/3o6gEdhyzP6s4OqGIY/giphy.gif" width="100"/>
-</p>
 
 - 📸 Photography  
 - 🎮 Gaming: Horizon Zero Dawn, Dying Light 2
