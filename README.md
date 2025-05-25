@@ -1,4 +1,3 @@
-=====================================================
 WELCOME READER, HERE IS A SHORT INTRODUCTION ABOUT ME
 =====================================================
 🏛️ M.Sc. Bioinformatics Student at Central University of Punjab  
