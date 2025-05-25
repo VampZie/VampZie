@@ -67,7 +67,7 @@ As an <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am 
 <table>
   <tr>
     <td align="center">
-      <img src="https://img.icons8.com/color/96/dna.png" width="48" alt="DNA Icon"/>
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fdna_620366&psig=AOvVaw3hoWwgyErK1Xv-I23fHnAr&ust=1748287415019000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjK7Lisv40DFQAAAAAdAAAAABAE.png" width="48" alt="DNA Icon"/>
       <br />
       <b>ML Pipeline for DNA Decoding</b>
       <br />
