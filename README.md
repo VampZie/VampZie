@@ -50,7 +50,7 @@ As an <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am 
 ## 🚀 Tools, Languages & Tech
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,linux,bash,tensorflow,pytorch,scikit-learn,pandas,github,git,html,cpp" />
+  <img src="https://skillicons.dev/icons?i=python,r,linux,bash,tensorflow,pytorch,pandas,github,git,html,cpp,vscode" />
 </p>
 
 <p align="center">
