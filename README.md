@@ -31,7 +31,7 @@
   </b>
 </p>
 
-As an <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am passionate about unraveling the secrets of life through the synergy of computational power and biological insight. My academic journey is centered at the intersection of <b>machine learning</b> and <b>genomics</b>, where I strive to turn complex data into meaningful biological discoveries.
+As a <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am passionate about unraveling the secrets of life through the synergy of computational power and biological insight. My academic journey is centered at the intersection of <b>machine learning</b> and <b>genomics</b>, where I strive to turn complex data into meaningful biological discoveries.
 
 - <b>🔬 Focus Areas:</b> Advanced machine learning for biological data, genomics, DNA encoding & decoding  
 - <b>🤝 Collaboration:</b> ML for biological datasets, bioinformatics pipelines, NGS data analysis  
