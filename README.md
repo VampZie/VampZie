@@ -72,7 +72,7 @@ As a <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am p
       <br />
       <b>ML Pipeline for DNA Decoding</b>
       <br />
-      <sub>AI-driven DNA sequence analysis</sub>
+      <sub>RNA sequence analysis</sub>
     </td>
     <td align="center">
       <img src="https://img.icons8.com/color/96/test-tube.png" width="48" alt="Test Tube Icon"/>
