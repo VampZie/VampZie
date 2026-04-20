@@ -1,100 +1,94 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&color=F7A8B8&center=true&vCenter=true&width=600&lines=Welcome+to+my+Research+Hub!;M.Sc.+Bioinformatics+%7C+Multi-Omics+%E2%9C%A8;Radiogenomics+%2B+Swarm+Intelligence+%F0%9F%A7%A0;isomiR+%26+miRNA+Dynamics+%E2%9C%94%EF%B8%8F;Let's+decode+Precision+Neuro+together+%F0%9F%A6%87" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3500&pause=500&color=64FFDA&center=true&vCenter=true&width=800&lines=Precision+Neurology+Researcher;Radiomics+%2B+Multi-Omics+Fusion;Automating+Biology+with+Swarm+Intelligence;Decoding+the+Ischemic+Stroke+Landscape;Hi%2C+I'm+Vidit+(VampZie)+%F0%9F%A6%87" alt="Typing SVG" />
 </p>
 
-<!-- Animated Wave Banner (Original Aesthetic) -->
+<!-- SLEEK CYBER-BIO BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e96443,100:904e95&height=180&section=header&text=Hi%20I'm%20VampZie%20🦇&fontSize=40&fontColor=fff&animation=twinkling" alt="Waving Banner"/>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/vidit-zainith-196960319"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge&logoColor=white&labelColor=0A66C2" alt="LinkedIn"></a>
-  <a href="mailto:viditzainith@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail&style=for-the-badge" alt="Email"></a>
-  <img src="https://komarev.com/ghpvc/?username=VampZie&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
-</p>
-
----
-
-<blockquote align="center">"Bridging the bridge between Medical Imaging and Molecular Biology using Autonomous Swarm Frameworks."</blockquote>
-
----
-
-## 🧬 Research Overview
-
-I am a **Master's Candidate in Bioinformatics** at the Central University of Punjab, focused on high-fidelity computational modeling of **Ischemic Stroke** and **Vascular Dementia**. My current work involves three major pillars:
-
-- <b>🔬 Objective 1:</b> <b>isomiR Dynamics in Dementia</b>: Comparative mapping of non-canonical and novel miRNAs leveraging <b>dMiso</b> and isomiR-specific targeting.
-- <b>🛡️ Objective 2:</b> <b>Thermodynamic Regulatory Networks</b>: Validating regulatory flips in Stroke using <b>RNAhybrid/RNAcofold</b> stability analysis and network rigidity modeling.
-- <b>🦾 Objective 3:</b> <b>Radiogenomic PSO Fusion</b>: Developing <b>Swarm-Gated Multi-Agent</b> systems to correlate CT texture features with <b>scRNA-seq</b> signatures.
-
-- <b>📫 Connect:</b> <a href="https://www.linkedin.com/in/vidit-zainith-196960319">LinkedIn</a> | viditzainith@gmail.com  
-- <b>🎮 Outside the lab:</b> Photography enthusiast & passionate gamer (Horizon Zero Dawn, Dying Light 2)
-
----
-
-## 🚀 Technical Arsenal
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,linux,bash,tensorflow,pytorch,nextflow,docker,mysql,git" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a192f,100:203a43&height=220&section=header&text=VAMPZIE%20|%20RESEARCH%20INTELLIGENCE&fontSize=45&fontColor=64ffda&desc=Computational%20Systems%20Biology%20%E2%80%A2%20Neuro-Genomics%20%E2%80%A2%20XAI&descAlignY=70&descFontSize=22&descFontColor=ccd6f6&animation=fadeIn" alt="Header Banner"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/scRNA--Seq-Seurat%20%7C%20Scanpy-21a366?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Radiogenomics-PSO%20%7C%20XAI-009688?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/miRNA--mRNA-miRanda%20%7C%20dMiso-6C3483?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Structure-RNAhybrid%20%7C%20cofold-00BFFF?style=for-the-badge" />
+  <a href="https://www.linkedin.com/in/vidit-zainith-196960319"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:viditzainith@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=VampZie&label=NETWORK+REACH&color=64ffda&style=for-the-badge" />
 </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</p>
+
+## 🔭 Research Thesis Pillars
+<p align="center">
+  <img src="https://img.shields.io/badge/OBJ%201-isomiR%20Dynamics-64ffda?style=for-the-badge&labelColor=112240" />
+  <img src="https://img.shields.io/badge/OBJ%202-Thermodynamic%20Regulatory-64ffda?style=for-the-badge&labelColor=112240" />
+  <img src="https://img.shields.io/badge/OBJ%203-PSO%20Radiogenomics-64ffda?style=for-the-badge&labelColor=112240" />
+</p>
+
+> Bridging **Computed Tomography (CT)** signals with **scRNA-seq** signatures using high-fidelity **Swarm Optimization** and **Explainable AI (XAI)**.
 
 ---
 
-## 🌟 Featured Dissertation Modules
+## 🛠️ The Tech Hub
 
-<table>
+<table align="center" border="0">
   <tr>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/network.png" width="48"/>
-      <br />
-      <b>isomiR Discovery</b>
-      <br />
-      <sub>Novel miRNA dynamics in Dementia</sub>
+    <td align="center"><b>Multi-Omics Stack</b></td>
+    <td align="center"><b>AI & Orchestration</b></td>
+    <td align="center"><b>Infrastructure</b></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://skillicons.dev/icons?i=r,python,mysql" /><br/>
+      <sub>Seurat, Scanpy, dMiso</sub>
     </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/test-tube.png" width="48"/>
-      <br />
-      <b>Regulatory Stability</b>
-      <br />
-      <sub>Thermodynamic Stroke validation</sub>
+    <td>
+      <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,nextflow" /><br/>
+      <sub>PSO, XAI, NF-DSL2</sub>
     </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/combo-chart--v1.png" width="48"/>
-      <br />
-      <b>PSO-Radiogenomics</b>
-      <br />
-      <sub>CT Texture to scRNA-seq mapping</sub>
+    <td>
+      <img src="https://skillicons.dev/icons?i=linux,docker,bash" /><br/>
+      <sub>HPC, Apptainer, SLURM</sub>
     </td>
   </tr>
 </table>
 
----
-
-## 📊 GitHub Intelligence
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VampZie&show_icons=true&theme=radical" alt="GitHub Stats" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VampZie&theme=radical" alt="GitHub Streak" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VampZie&layout=compact&theme=radical" height="150"/>
-</p>
-
-<!-- Contribution Snake Animation -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/VampZie/VampZie/output/github-contribution-grid-snake.gif" alt="Snake Animation" />
-</p>
+### 🧬 Specialized Competencies
+`Single-Cell RNA-seq` • `Radiomics Texture Analysis` • `miRNA-mRNA Networks` • `Structural Bio-informatics` • `Differential Expression (DESeq2/Limma)` • `Clinical ROI Snapping Logic`
 
 ---
 
+## 🌟 Advanced Research Modules
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e96443,100:904e95&height=120&section=footer&animation=twinkling" />
+<a href="#">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=VampZie&repo=NGS-Data-Analysis&theme=tokyonight&show_owner=true" />
+</a>
+<a href="#">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=VampZie&repo=VampZie&theme=tokyonight&show_owner=true" />
+</a>
 </p>
+
+---
+
+## 📈 Activity Intelligence
+
 <p align="center">
-  <b>Thanks for visiting! Let's build the future of Precision Neurology together. 🦇🧬</b>
+  <img src="https://github-readme-stats.vercel.app/api?username=VampZie&show_icons=true&theme=tokyonight&bg_color=0a192f&title_color=64ffda&icon_color=64ffda&text_color=ccd6f6&border_color=64ffda" height="175"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VampZie&layout=compact&theme=tokyonight&bg_color=0a192f&title_color=64ffda&text_color=ccd6f6&border_color=64ffda" height="175"/>
+</p>
+
+<!-- CUSTOM SNAKE -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/VampZie/VampZie/output/github-contribution-grid-snake.gif" width="100%" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=64ffda&height=5&section=footer" />
+</p>
+
+<p align="center">
+  <sub><b>Powered by Code | Inspired by Biology | Driven by Curiosity</b></sub><br/>
+  <sub>© 2026 Vidit Zainith • All Systems Operational 🦇</sub>
 </p>
