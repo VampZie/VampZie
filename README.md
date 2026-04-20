@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=4000&pause=500&color=F7A8B8&center=true&vCenter=true&width=800&lines=Computational+Biologist+%7C+Multi-Omics+Researcher;Specializing+in+Radiogenomics+%2B+Swarm+Intelligence;Engineering+Nextflow+Pipelines+for+Neuro-Informatics;Decoding+Ischemic+Stroke+Dynamics+%F0%9F%A7%A0" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=4000&pause=500&color=F7A8B8&center=true&vCenter=true&width=800&lines=Computational+Biologist+%7C+Multi-Omics+Researcher;Specializing+in+miRNA-mRNA+Dynamics+%26+isomiRs;Engineering+Nextflow+Pipelines+for+Neuro-Informatics;Swarm-Agent+Frameworks+for+Radiogenomic+Fusion+%F0%9F%A7%A0" alt="Typing SVG" />
 </p>
 
 <!-- Sleek Animated Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C3E50,100:4CA1AF&height=200&section=header&text=VIDIT%20ZAINITH%20(VampZie)&fontSize=45&fontColor=ffffff&desc=Researcher+%7C+Bioinformatics+%7C+Full-Stack+Genomics&descAlignY=65&descFontSize=20" alt="Header Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C3E50,100:4CA1AF&height=200&section=header&text=VIDIT%20ZAINITH%20(VampZie)&fontSize=45&fontColor=ffffff&desc=Dissertation+Researcher+%7C+Neuro-Bioinformatics+%7C+ML+Engineer&descAlignY=65&descFontSize=20" alt="Header Banner"/>
 </p>
 
 <p align="center">
@@ -15,69 +15,64 @@
 
 ---
 
-<blockquote align="center">"Combining Swarm Intelligence with Molecular Biology to bridge the gap between Medical Imaging and Genomics."</blockquote>
+## 🧬 Research Dissertation Pillars
 
----
+I am currently developing a multi-modal computational framework to decode the molecular landscape of Ischemic Stroke and Vascular Dementia. My research is built on three technical objectives:
 
-## 🧬 Scientific Research Profile
-
-I am a **Bioinformatics Researcher** specializing in the integration of **Radiomics** and **Transcriptomics** to model neurodegenerative disorders. My work focuses on building autonomous, high-fidelity pipelines for **Ischemic Stroke** localization and regulatory network validation.
-
-- **🔬 Research Focus:** Radiogenomic Fusion, Swarm Intelligence (PSO) in Bio-Segmentation, and isomiR dynamics in Vascular Dementia.
-- **🛠️ Engineering:** Multi-agent autonomous frameworks and reproducible Nextflow/Docker workflows.
-- **🎓 Education:** M.Sc. Bioinformatics @ Central University of Punjab (2024-2026).
-- **💡 Philosophy:** Scalable, reproducible, and explainable (XAI) computational biology.
+*   **Objective 1 (isomiR Dynamics):** Comparative analysis of novel and known miRNAs in **Vascular Dementia**, leveraging **dMiso** and isomiR-specific target prediction.
+*   **Objective 2 (Network Thermodynamics):** Validating regulatory states in **Ischemic Stroke** using structural accessibility and thermodynamic stability (RNAhybrid/RNAcofold) to quantify network rigidity.
+*   **Objective 3 (Radiogenomics):** Engineering **Swarm-Gated Multi-Agent** systems to bridge CT texture features with **scRNA-seq** differential expression signatures.
 
 ---
 
 ## 🚀 Technical Arsenal
 
-### **Languages & Frameworks**
+### **Languages & Orchestration**
 <p align="left">
   <img src="https://skillicons.dev/icons?i=python,r,bash,linux,tensorflow,pytorch,nextflow,docker,mysql,git" />
 </p>
 
-### **Bio-Informatics Expertise**
+### **Core Bioinformatics Stack**
 <p align="left">
-  <img src="https://img.shields.io/badge/scRNA--Seq-Seurat%20%7C%20Scanpy-blueviolet?style=flat-square&logo=R" />
-  <img src="https://img.shields.io/badge/Radiogenomics-PSO%20%7C%20XAI-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/miRNA--Dynamics-miRanda%20%7C%20dMiso-deepskyblue?style=flat-square" />
-  <img src="https://img.shields.io/badge/HPC-SLURM%20%7C%20Nextflow-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/scRNA--Seq-Seurat%20%7C%20Scanpy%20%7C%20Harmony-blue?style=flat-square&logo=R" />
+  <img src="https://img.shields.io/badge/miRNA--mRNA-miRanda%20%7C%20dMiso-deepskyblue?style=flat-square" />
+  <img src="https://img.shields.io/badge/RNA--Structure-RNAhybrid%20%7C%20RNAcofold-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/ML--XAI-SHAP%20%7C%20Grad--CAM%20%7C%20PSO-orange?style=flat-square" />
 </p>
 
 ---
 
-## 🌟 Featured Dissertation Projects
+## 🌟 Featured Dissertion Project Modules
 
 <table border="0">
   <tr>
+    <td width="33%" align="center" valign="top">
+      <img src="https://img.icons8.com/color/96/network.png" width="60"/>
+      <br />
+      <b>isomniR & Novel miRNA Discovery</b>
+      <br />
+      <sub>Vascular Dementia: Novel isoform-specific miRNA-mRNA interaction mapping.</sub>
+    </td>
     <td width="33%" align="center" valign="top">
       <img src="https://img.icons8.com/external-flat-icons-inmotus-design/67/external-Swarm-artificial-intelligence-flat-icons-inmotus-design.png" width="60"/>
       <br />
       <b>Swarm-Gated Radiogenomics</b>
       <br />
-      <sub>Autonomous Ischemic Localization via Particle Swarm Optimization & scRNA-seq Mapping.</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <img src="https://img.icons8.com/color/96/network.png" width="60"/>
-      <br />
-      <b>isomiR-mRNA Networks</b>
-      <br />
-      <sub>Comparative analysis of novel and isomers miRNA dynamics in Vascular Dementia cases.</sub>
+      <sub>Autonomous CT-to-scRNA Fusion via Particle Swarm Optimization (PSO).</sub>
     </td>
     <td width="33%" align="center" valign="top">
       <img src="https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/external-brain-medical-health-care-flat-flatarticons.png" width="60"/>
       <br />
-      <b>Triple-Gated XAI</b>
+      <b>Thermodynamic Regulatory Analysis</b>
       <br />
-      <sub>Clinically grounded attribution reporting using SHAP, Grad-CAM, and Pixel-Level Importance.</sub>
+      <sub>Modeling mRNA seed duplex formation and accessibility during disease progression.</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-## 📊 GitHub Intelligence
+## 📊 GitHub Intelligence & Activity
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=VampZie&show_icons=true&theme=tokyonight&border_radius=10" alt="GitHub Stats" height="150"/>
@@ -96,5 +91,5 @@ I am a **Bioinformatics Researcher** specializing in the integration of **Radiom
 </p>
 
 <p align="center">
-  <b>Let's build the future of Precision Medicine together. 🧬</b>
+  <b>Thanks for visiting! Looking forward to collaborating on Precision Neurology. 🧬</b>
 </p>
