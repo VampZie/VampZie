@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&color=F7A8B8&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub!;M.Sc.+Bioinformatics+Student+%7C+ML+%E2%9C%A8;Genomics+Analysis+%E2%9C%94%EF%B8%8F+Downstream+Analysis+%F0%9F%94%A5;Let's+decode+life+together+%F0%9F%91%BB" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&color=00BFFF&center=true&vCenter=true&width=600&lines=Welcome+to+my+Research+Hub!;M.Sc.+Bioinformatics+%7C+Multi-Omics+%E2%9C%A8;Radiogenomics+%2B+Swarm+Intelligence+%F0%9F%A7%A0;Let's+decode+Precision+Neuro+together+%F0%9F%A6%87" alt="Typing SVG" />
 </p>
 
-<!-- Animated Wave Banner -->
+<!-- Mysterious Neon Blue Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e96443,100:904e95&height=180&section=header&text=Hi%20I'm%20VampZie%20🦇&fontSize=40&fontColor=fff&animation=twinkling" alt="Waving Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:004e92&height=180&section=header&text=Hi%20I'm%20VampZie%20🦇&fontSize=40&fontColor=fff&animation=twinkling" alt="Waving Banner"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vidit-zainith-196960319"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge&logoColor=white&labelColor=0A66C2" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/vidit-zainith-196960319"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge&logoColor=white&labelColor=0077B5" alt="LinkedIn"></a>
   <a href="mailto:viditzainith@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail&style=for-the-badge" alt="Email"></a>
-  <img src="https://komarev.com/ghpvc/?username=VampZie&label=Profile+Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=VampZie&label=SYSTEM+ACCESS&color=00BFFF&style=for-the-badge" alt="Profile Views"/>
 </p>
 
 ---
@@ -21,11 +21,10 @@
 
 ## 🧬 About Me
 
-
 <p align="center">
   <b>
-    <span style="color:#a259f7;">
-      Bioinformatics Explorer | ML in Genomics | NGS Enthusiast
+    <span style="color:#00BFFF;">
+      isomiR Dynamics • Swarm Radiogenomics • XAI Production • scRNA-seq • Neuro-Genetics • Pipeline Orchestration
     </span>
   </b>
 </p>
@@ -54,9 +53,9 @@ As a <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am p
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/NGS-21a366?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Bioinformatics-009688?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Genomics-6C3483?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/NGS-00BFFF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Bioinformatics-0077B5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Radiogenomics-000428?style=for-the-badge" />
   <img src="https://img.shields.io/badge/ML-00BFFF?style=for-the-badge" />
 </p>
 
@@ -69,23 +68,23 @@ As a <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am p
     <td align="center">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" alt="DNA Icon"/>
       <br />
-      <b>ML Pipeline for DNA Decoding</b>
+      <b>Swarm Radiogenomics</b>
       <br />
-      <sub>RNA sequence analysis</sub>
+      <sub>Autonomous CT-scRNA Fusion</sub>
     </td>
     <td align="center">
       <img src="https://img.icons8.com/color/96/test-tube.png" width="48" alt="Test Tube Icon"/>
       <br />
-      <b>Genomics Data Toolkit</b>
+      <b>isomiR Dynamics</b>
       <br />
-      <sub>End-to-end genomics data analysis</sub>
+      <sub>Non-canonical miRNA mapping</sub>
     </td>
     <td align="center">
       <img src="https://img.icons8.com/color/96/combo-chart--v1.png" width="48" alt="Chart Icon"/>
       <br />
-      <b>NGS Data Visualization</b>
+      <b>XAI Production</b>
       <br />
-      <sub>Interactive, insightful plots</sub>
+      <sub>Clinically Grounded Attribution</sub>
     </td>
   </tr>
 </table>
@@ -95,9 +94,9 @@ As a <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am p
 ## 📊 GitHub Stats & Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VampZie&show_icons=true&theme=radical" alt="GitHub Stats" height="140"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VampZie&theme=radical" alt="GitHub Streak" height="140"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VampZie&layout=compact&theme=radical" height="140"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=VampZie&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="140"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VampZie&theme=tokyonight" alt="GitHub Streak" height="140"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VampZie&layout=compact&theme=tokyonight" height="140"/>
 </p>
 
 <!-- Contribution Snake Animation -->
@@ -116,12 +115,8 @@ As a <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am p
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e96443,100:904e95&height=120&section=footer&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:004e92&height=120&section=footer&animation=twinkling" />
 </p>
 <p align="center">
   <b>Thanks for visiting my profile! Have a great day! 😊</b>
 </p>
-
-<!--
-**VampZie/VampZie** is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
