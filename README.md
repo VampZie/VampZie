@@ -1,122 +1,98 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=4000&pause=500&color=00BFFF&center=true&vCenter=true&width=600&lines=Welcome+to+my+Research+Hub!;M.Sc.+Bioinformatics+%7C+Multi-Omics+%E2%9C%A8;Radiogenomics+%2B+Swarm+Intelligence+%F0%9F%A7%A0;Let's+decode+Precision+Neuro+together+%F0%9F%A6%87" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=500&color=00FBFF&center=true&vCenter=true&width=800&lines=Accessing+VampZie+Research+Grid...;System+Status:+Online+%E2%9C%A8;Specialization:+Radiogenomic+Fusion+%F0%9F%A7%A0;Specialization:+miRNA+interaction+logic;Let's+build+the+future+together+%F0%9F%A6%87" alt="Typing SVG" />
 </p>
 
-<!-- Mysterious Neon Blue Banner -->
+<!-- 3D NEON SOFT HEADER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:004e92&height=180&section=header&text=Hi%20I'm%20VampZie%20🦇&fontSize=40&fontColor=fff&animation=twinkling" alt="Waving Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:000000,100:00fbff&height=220&section=header&text=VIDIT%20ZAINITH&fontSize=50&fontColor=ffffff&desc=Computational%20Intelligence%20|%20Bio-Informatics&descAlignY=70&descFontSize=22&descFontColor=ff00ff" alt="Header Banner"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vidit-zainith-196960319"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge&logoColor=white&labelColor=0077B5" alt="LinkedIn"></a>
-  <a href="mailto:viditzainith@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-red?logo=gmail&style=for-the-badge" alt="Email"></a>
-  <img src="https://komarev.com/ghpvc/?username=VampZie&label=SYSTEM+ACCESS&color=00BFFF&style=for-the-badge" alt="Profile Views"/>
+  <a href="https://www.linkedin.com/in/vidit-zainith-196960319"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:viditzainith@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=VampZie&label=NODE+ACCESS&color=00fbff&style=for-the-badge" />
 </p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/gradient.png" width="100%">
+</p>
 
-<blockquote align="center">"Science is a way of thinking much more than it is a body of knowledge." — Carl Sagan</blockquote>
-
----
-
-## 🧬 About Me
+## 🌌 The Research Matrix
 
 <p align="center">
   <b>
-    <span style="color:#00BFFF;">
-      isomiR Dynamics • Swarm Radiogenomics • XAI Production • scRNA-seq • Neuro-Genetics • Pipeline Orchestration
-    </span>
+    <span style="color:#00FBFF;">isomiR DYNAMICS</span> • 
+    <span style="color:#FF00FF;">SWARM RADIOGENOMICS</span> • 
+    <span style="color:#39FF14;">XAI PRODUCTION</span> • 
+    <span style="color:#00FBFF;">scRNA-seq</span> • 
+    <span style="color:#FF00FF;">NEURO-GENETICS</span>
   </b>
 </p>
 
-As a <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am passionate about unraveling the secrets of life through the synergy of computational power and biological insight. My academic journey is centered at the intersection of <b>machine learning</b> and <b>genomics</b>, where I strive to turn complex data into meaningful biological discoveries.
-
-- <b>🔬 Focus Areas:</b> Advanced machine learning for biological data, genomics, DNA encoding & decoding  
-- <b>🤝 Collaboration:</b> ML for biological datasets, bioinformatics pipelines, NGS data analysis  
-- <b>🚀 Open to:</b> Collaborating on innovative ML workflows, cutting-edge NGS projects  
-- <b>📫 Connect:</b> <a href="https://www.linkedin.com/in/vidit-zainith-196960319">LinkedIn</a> | viditzainith@gmail.com  
-- <b>🎮 Outside the lab:</b> Photography enthusiast & passionate gamer (Horizon Zero Dawn, Dying Light 2)
-
 ---
 
-<blockquote align="center">
-  <i>"Driven by curiosity, powered by code, and inspired by the endless mysteries of biology."</i>
-</blockquote>
-
----
-
-## 🚀 Tools, Languages & Tech
+## 🛠️ Cyber-Genetic Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,linux,bash,tensorflow,pytorch,jupyter,github,git,html,cpp,vscode" />
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pandas.svg" width="40" title="pandas" style="vertical-align:middle; margin-left:8px;"/>
+  <img src="https://skillicons.dev/icons?i=python,r,linux,bash,tensorflow,pytorch,nextflow,docker,mysql,javascript,html,cpp" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/NGS-00BFFF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Bioinformatics-0077B5?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Radiogenomics-000428?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ML-00BFFF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ORCHESTRATION-Nextflow%20|%20Docker-00fbff?style=for-the-badge&labelColor=111" />
+  <img src="https://img.shields.io/badge/MODELLING-PSO%20|%20XAI%20|%20CNN-ff00ff?style=for-the-badge&labelColor=111" />
 </p>
 
 ---
 
-## 🌟 Featured Projects
+## 🌟 3D-Project Intel
 
-<table>
+<table align="center" border="0">
   <tr>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" alt="DNA Icon"/>
+    <td align="center" width="33%">
+      <img src="https://fluent-emoji.static.observableusercontent.com/assets/1.0.0/emoji/dna.png" width="80" />
       <br />
-      <b>Swarm Radiogenomics</b>
+      <b><span style="color:#00FBFF;">isomiR Discovery</span></b>
       <br />
-      <sub>Autonomous CT-scRNA Fusion</sub>
+      <sub>Novel miRNA dynamics in Dementia</sub>
     </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/test-tube.png" width="48" alt="Test Tube Icon"/>
+    <td align="center" width="33%">
+      <img src="https://fluent-emoji.static.observableusercontent.com/assets/1.0.0/emoji/brain.png" width="80" />
       <br />
-      <b>isomiR Dynamics</b>
+      <b><span style="color:#FF00FF;">Swarm-Gated Fusion</span></b>
       <br />
-      <sub>Non-canonical miRNA mapping</sub>
+      <sub>Radiomic ⇄ scRNA-seq Correlative Mapping</sub>
     </td>
-    <td align="center">
-      <img src="https://img.icons8.com/color/96/combo-chart--v1.png" width="48" alt="Chart Icon"/>
+    <td align="center" width="33%">
+      <img src="https://fluent-emoji.static.observableusercontent.com/assets/1.0.0/emoji/microscope.png" width="80" />
       <br />
-      <b>XAI Production</b>
+      <b><span style="color:#39FF14;">Thermodynamic Validation</span></b>
       <br />
-      <sub>Clinically Grounded Attribution</sub>
+      <sub>Network Rigidity & Structural Accessibility</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-## 📊 GitHub Stats & Activity
+## 📉 Grid Intelligence
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VampZie&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="140"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VampZie&theme=tokyonight" alt="GitHub Streak" height="140"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VampZie&layout=compact&theme=tokyonight" height="140"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=VampZie&show_icons=true&theme=radical&bg_color=000&title_color=00fbff&icon_color=00fbff&text_color=fff&border_color=ff00ff" height="175"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VampZie&layout=compact&theme=radical&bg_color=000&title_color=00fbff&text_color=fff&border_color=ff00ff" height="175"/>
 </p>
 
-<!-- Contribution Snake Animation -->
+<!-- NEON SNAKE -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/VampZie/VampZie/output/github-contribution-grid-snake.gif" alt="Contribution Snake Animation" />
+  <img src="https://raw.githubusercontent.com/VampZie/VampZie/output/github-contribution-grid-snake.gif" width="100%" />
 </p>
 
 ---
 
-## 🎮 Hobbies & Fun
-
-
-- 📸 Photography  
-- 🎮 Gaming: Horizon Zero Dawn, Dying Light 2
-
----
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,100:004e92&height=120&section=footer&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=ff00ff&height=10&section=footer" />
 </p>
+
 <p align="center">
-  <b>Thanks for visiting my profile! Have a great day! 😊</b>
+  <sub><b>Decoding Life via Code • All Systems Functional 🦇</b></sub><br/>
+  <sub>© 2026 Vidit Zainith • Researcher Hub</sub>
 </p>
