@@ -29,9 +29,9 @@
   </b>
 </p>
 
-As a <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am passionate about unraveling the secrets of life through the synergy of computational power and biological insight. My academic journey is centered at the intersection of <b>machine learning</b> and <b>genomics</b>, where I strive to turn complex data into meaningful biological discoveries.
+As a <b>M.Sc. Bioinformatics student at Central University of Punjab</b>, I am hella crazy about unraveling the secrets of life through the code flow of computational power and biological logic insight. My academic journey is centered at the intersection of <b>machine learning</b> and <b>multi-omics</b>, where I strive to turn complex data into meaningful biological discoveries.
 
-- <b>🔬 Focus Areas:</b> Advanced machine learning for biological data, genomics, DNA encoding & decoding  
+- <b>🔬 Focus Areas:</b> Advanced machine learning for biological data, transcriptomics, & Radio-genomics  
 - <b>🤝 Collaboration:</b> ML for biological datasets, bioinformatics pipelines, NGS data analysis  
 - <b>🚀 Open to:</b> Collaborating on innovative ML workflows, cutting-edge NGS projects  
 - <b>📫 Connect:</b> <a href="https://www.linkedin.com/in/vidit-zainith-196960319">LinkedIn</a> | viditzainith@gmail.com  
