@@ -15,7 +15,7 @@
 
 ---
 
-<blockquote align="center">"Science is a way of thinking much more than it is a body of knowledge." — Carl Sagan</blockquote>
+<blockquote align="center">"Understand the problem, code the biology,let the bioinformatics flow" — Vidit Zainith</blockquote>
 
 ---
 
