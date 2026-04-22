@@ -15,7 +15,7 @@
 
 ---
 
-<blockquote align="center">"Understand the problem, code the biology,let the bioinformatics flow" — Vidit Zainith</blockquote>
+<blockquote align="center">"Understand the design, control the data, let the biology flow" — Vidit Zainith</blockquote>
 
 ---
 
