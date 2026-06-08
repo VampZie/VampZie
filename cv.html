@@ -215,7 +215,13 @@ html { scroll-behavior: auto; }
 <p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest mb-4">Computational Biologist Bioinformatician</p>
 <div class="space-y-3 mt-6 border-t border-glass-border pt-6"><div class="flex items-center gap-3 text-on-surface-variant hover:text-neon-cyan transition-colors"><span class="material-symbols-outlined">alternate_email</span><span class="font-label-md">viditzainith@gmail.com</span></div><div class="flex flex-col sm:flex-row gap-3 mt-4"><a class="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-glass-surface border border-neon-cyan text-neon-cyan font-label-md transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(0,255,255,0.4)] active:scale-95" href="https://github.com/VampZie" target="_blank"><span class="material-symbols-outlined text-sm">hub</span><span class="">GitHub</span></a><a class="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-glass-surface border border-neon-cyan text-neon-cyan font-label-md transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(0,255,255,0.4)] active:scale-95" href="https://www.linkedin.com/in/vidit-zainith-196960319" target="_blank"><span class="material-symbols-outlined text-sm">link</span><span class="">LinkedIn</span></a></div></div>
 </div>
-<!-- View CV Button Hero Section Placement (if missing, added here for accessibility) -->
+<!-- PROFILE card moved here -->
+<section class="reveal visible scroll-mt-24" id="profile">
+  <div class="glass-card p-stack-lg rounded-xl bg-gradient-to-br from-surface-container/50 to-transparent" style="transform: scale(1);">
+    <h2 class="font-headline-md text-headline-md text-neon-cyan mb-stack-md">PROFILE</h2>
+    <p class="font-body-lg text-on-surface leading-relaxed">Bioinformatics researcher specializing in <span class="text-particle-cyan">miRNA-mRNA</span>, <span class="text-particle-cyan">scRNA biology</span>, and <span class="text-particle-cyan">multi-omics</span> interpretation along with <span class="text-particle-cyan">Radiomics</span>, with a disease-focused emphasis on <span class="text-particle-cyan">neurodegenerative disorders</span>, <span class="text-particle-cyan">ischemic stroke</span>, and <span class="text-particle-cyan">vascular dementia</span>. Experienced in designing reproducible computational pipelines for <span class="text-particle-cyan">RNA-seq</span> and <span class="text-particle-cyan">single-cell RNA analysis</span>, integrating <span class="text-particle-cyan">statistical modelling</span> and <span class="text-particle-cyan">machine learning</span>. Seeking to apply advanced computational frameworks in <span class="text-particle-cyan">computational multi-omics</span>, <span class="text-particle-cyan">systems biology</span>, and <span class="text-particle-cyan">neurogenetics</span> within a research-intensive environment.</p>
+  </div>
+</section>
 
 <div class="glass-card p-stack-lg rounded-xl" id="academic" style="transform: scale(1);">
 <h2 class="font-headline-sm text-headline-sm text-neon-magenta mb-stack-md flex items-center gap-2">
@@ -237,13 +243,6 @@ html { scroll-behavior: auto; }
 </aside>
 <!-- Main Content: Bio, Arsenal, Projects, Specialties -->
 <div class="md:col-span-8 flex flex-col gap-stack-lg">
-<!-- Biography -->
-<section class="reveal visible scroll-mt-24" id="profile">
-<div class="glass-card p-stack-lg rounded-xl bg-gradient-to-br from-surface-container/50 to-transparent" style="transform: scale(1);">
-<h2 class="font-headline-md text-headline-md text-neon-cyan mb-stack-md">PROFILE</h2>
-<p class="font-body-lg text-on-surface leading-relaxed">Bioinformatics researcher specializing in <span class="text-particle-cyan">miRNA-mRNA</span>, <span class="text-particle-cyan">scRNA biology</span>, and <span class="text-particle-cyan">multi-omics</span> interpretation along with <span class="text-particle-cyan">Radiomics</span>, with a disease-focused emphasis on <span class="text-particle-cyan">neurodegenerative disorders</span>, <span class="text-particle-cyan">ischemic stroke</span>, and <span class="text-particle-cyan">vascular dementia</span>. Experienced in designing reproducible computational pipelines for <span class="text-particle-cyan">RNA-seq</span> and <span class="text-particle-cyan">single-cell RNA analysis</span>, integrating <span class="text-particle-cyan">statistical modelling</span> and <span class="text-particle-cyan">machine learning</span>. Seeking to apply advanced computational frameworks in <span class="text-particle-cyan">computational multi-omics</span>, <span class="text-particle-cyan">systems biology</span>, and <span class="text-particle-cyan">neurogenetics</span> within a research-intensive environment.</p>
-</div>
-</section>
 <!-- Technical Arsenal (Bento Grid) -->
 <section class="reveal visible scroll-mt-24" id="algorithms">
 <div class="flex items-center justify-between mb-stack-md">
@@ -403,82 +402,96 @@ html { scroll-behavior: auto; }
     });
 
     // Network Background Animation (optimized for mobile)
-    if (window.innerWidth >= 768) {
-        const canvas = document.getElementById('networkCanvas');
-        const ctx = canvas.getContext('2d');
-        let particles = [];
-        const particleCount = 80;
-
-        function init() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            particles = [];
-            for (let i = 0; i < particleCount; i++) {
-                particles.push({
-                    x: Math.random() * canvas.width,
-                    y: Math.random() * canvas.height,
-                    vx: (Math.random() - 0.5) * 0.5,
-                    vy: (Math.random() - 0.5) * 0.5,
-                    size: Math.random() * 2 + 1,
-                    color: Math.random() > 0.5 ? '#00f0ff' : '#b000ff'
-                });
-            }
+    const canvas = document.getElementById('networkCanvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    
+    class Particle {
+        constructor() {
+            this.init();
         }
+        init() {
+            this.x = Math.random() * canvas.width;
+            this.y = Math.random() * canvas.height;
+            this.vx = (Math.random() - 0.5) * 0.5;
+            this.vy = (Math.random() - 0.5) * 0.5;
+            this.size = Math.random() * 2 + 1;
+            this.color = Math.random() > 0.5 ? '#00f0ff' : '#b000ff';
+        }
+        update() {
+            this.x += this.vx;
+            this.y += this.vy;
+            if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+            if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+        }
+        draw() {
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+            ctx.fillStyle = this.color;
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = this.color;
+            ctx.fill();
+        }
+    }
 
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            particles.forEach((p, i) => {
-                p.x += p.vx;
-                p.y += p.vy;
+    function initParticles() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        particles = [];
+        const count = window.innerWidth < 768 ? 40 : 100;
+        for (let i = 0; i < count; i++) {
+            particles.push(new Particle());
+        }
+    }
 
-                if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
-                if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
-
-                ctx.beginPath();
-                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-                ctx.fillStyle = p.color;
-                ctx.shadowBlur = 10;
-                ctx.shadowColor = p.color;
-                ctx.fill();
-
-                for (let j = i + 1; j < particles.length; j++) {
-                    const p2 = particles[j];
-                    const dx = p.x - p2.x;
-                    const dy = p.y - p2.y;
-                    const dist = Math.sqrt(dx * dx + dy * dy);
-
-                    if (dist < 120) {
-                        ctx.beginPath();
-                        ctx.moveTo(p.x, p.y);
-                        ctx.lineTo(p2.x, p2.y);
-                        ctx.strokeStyle = `rgba(0, 240, 255, ${0.2 * (1 - dist / 120)})`;
-                        ctx.lineWidth = 1;
-                        ctx.stroke();
-                    }
+    function drawLines() {
+        for (let i = 0; i < particles.length; i++) {
+            for (let j = i + 1; j < particles.length; j++) {
+                const dx = particles[i].x - particles[j].x;
+                const dy = particles[i].y - particles[j].y;
+                const dist = Math.sqrt(dx * dx + dy * dy);
+                if (dist < 120) {
+                    ctx.beginPath();
+                    ctx.moveTo(particles[i].x, particles[i].y);
+                    ctx.lineTo(particles[j].x, particles[j].y);
+                    ctx.strokeStyle = `rgba(0, 240, 255, ${0.2 * (1 - dist / 120)})`;
+                    ctx.lineWidth = 1;
+                    ctx.stroke();
                 }
-            });
-            requestAnimationFrame(animate);
-        }
-
-        window.addEventListener('resize', init);
-        init();
-        animate();
-    };
-
-    // Reveal Animation on Scroll
-    const observerOptions = {
-        threshold: 0.1
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
             }
-        });
-    }, observerOptions);
+        }
+    }
 
-    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(p => {
+            p.update();
+            p.draw();
+        });
+        drawLines();
+        requestAnimationFrame(animate);
+    }
+
+    window.addEventListener('resize', initParticles);
+    if(canvas) {
+        initParticles();
+        animate();
+    }
+
+    // Simple scroll reveal for all devices
+    function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 80;
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("visible");
+            }
+        }
+    }
+    window.addEventListener("scroll", reveal);
+    window.addEventListener("load", reveal);
 
     // Interaction scale effect
     document.querySelectorAll('.glass-card').forEach(card => {
