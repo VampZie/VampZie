@@ -4,502 +4,610 @@
 <title>Vidit Zainith | Computational Biologist CV</title>
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@600;700&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "tertiary-fixed-dim": "#bec6e0",
-                    "surface-bright": "#333a40",
-                    "primary-container": "#00fbfb",
-                    "on-background": "#dde3eb",
-                    "glass-border": "rgba(255, 255, 255, 0.12)",
-                    "error-container": "#93000a",
-                    "tertiary": "#ffffff",
-                    "outline": "#839493",
-                    "inverse-surface": "#dde3eb",
-                    "neon-magenta": "#ff00ff",
-                    "secondary-container": "#fe00fe",
-                    "on-secondary-fixed-variant": "#810081",
-                    "surface-container-lowest": "#080f14",
-                    "primary-fixed-dim": "#00dddd",
-                    "surface": "#0e141a",
-                    "on-error-container": "#ffdad6",
-                    "on-secondary-fixed": "#380038",
-                    "on-secondary-container": "#500050",
-                    "on-surface-variant": "#b9cac9",
-                    "error": "#ffb4ab",
-                    "tertiary-fixed": "#dae2fd",
-                    "particle-magenta": "#b000ff",
-                    "on-primary-container": "#007070",
-                    "on-tertiary-fixed-variant": "#3f465c",
-                    "on-tertiary": "#283044",
-                    "primary": "#ffffff",
-                    "on-tertiary-fixed": "#131b2e",
-                    "on-primary-fixed-variant": "#004f4f",
-                    "surface-dim": "#0e141a",
-                    "on-primary-fixed": "#002020",
-                    "background": "#0e141a",
-                    "particle-cyan": "#00f0ff",
-                    "inverse-primary": "#006a6a",
-                    "inverse-on-surface": "#2b3137",
-                    "surface-container-high": "#242b31",
-                    "on-error": "#690005",
-                    "on-secondary": "#5b005b",
-                    "deep-slate": "#0f172a",
-                    "primary-fixed": "#00fbfb",
-                    "surface-variant": "#2f353c",
-                    "neon-cyan": "#00ffff",
-                    "on-tertiary-container": "#5c647a",
-                    "glass-surface": "rgba(30, 41, 59, 0.7)",
-                    "secondary-fixed-dim": "#ffabf3",
-                    "secondary": "#ffabf3",
-                    "surface-tint": "#00dddd",
-                    "surface-container": "#1a2026",
-                    "on-primary": "#003737",
-                    "tertiary-container": "#dae2fd",
-                    "on-surface": "#dde3eb",
-                    "outline-variant": "#3a4a49",
-                    "surface-container-low": "#161c22",
-                    "secondary-fixed": "#ffd7f5",
-                    "surface-container-highest": "#2f353c"
-            },
-            "borderRadius": {
-                    "DEFAULT": "0.25rem",
-                    "lg": "0.5rem",
-                    "xl": "0.75rem",
-                    "full": "9999px"
-            },
-            "spacing": {
-                    "stack-md": "1rem",
-                    "stack-lg": "2rem",
-                    "reveal-offset": "30px",
-                    "stack-sm": "0.5rem",
-                    "gutter": "1.5rem",
-                    "section-gap": "8rem",
-                    "container-max": "1200px",
-                    "section-gap-mobile": "4rem"
-            },
-            "fontFamily": {
-                    "body-md": ["Inter"],
-                    "body-lg": ["Inter"],
-                    "display-lg-mobile": ["Outfit"],
-                    "display-lg": ["Outfit"],
-                    "headline-sm": ["Outfit"],
-                    "headline-md": ["Outfit"],
-                    "label-sm": ["Inter"],
-                    "label-md": ["Inter"]
-            },
-            "fontSize": {
-                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
-                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
-                    "display-lg-mobile": ["40px", {"lineHeight": "1.2", "fontWeight": "700"}],
-                    "display-lg": ["56px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-                    "headline-sm": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
-                    "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
-                    "label-sm": ["12px", {"lineHeight": "1.2", "letterSpacing": "0.1em", "fontWeight": "600"}],
-                    "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "500"}]
-            }
-          },
-        },
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "tertiary-fixed-dim": "#bec6e0","surface-bright": "#333a40","primary-container": "#00fbfb",
+        "on-background": "#dde3eb","glass-border": "rgba(255, 255, 255, 0.12)","error-container": "#93000a",
+        "tertiary": "#ffffff","outline": "#839493","inverse-surface": "#dde3eb","neon-magenta": "#ff00ff",
+        "secondary-container": "#fe00fe","on-secondary-fixed-variant": "#810081","surface-container-lowest": "#080f14",
+        "primary-fixed-dim": "#00dddd","surface": "#0e141a","on-error-container": "#ffdad6",
+        "on-secondary-fixed": "#380038","on-secondary-container": "#500050","on-surface-variant": "#b9cac9",
+        "error": "#ffb4ab","tertiary-fixed": "#dae2fd","particle-magenta": "#b000ff",
+        "on-primary-container": "#007070","on-tertiary-fixed-variant": "#3f465c","on-tertiary": "#283044",
+        "primary": "#ffffff","on-tertiary-fixed": "#131b2e","on-primary-fixed-variant": "#004f4f",
+        "surface-dim": "#0e141a","on-primary-fixed": "#002020","background": "#0e141a",
+        "particle-cyan": "#00f0ff","inverse-primary": "#006a6a","inverse-on-surface": "#2b3137",
+        "surface-container-high": "#242b31","on-error": "#690005","on-secondary": "#5b005b",
+        "deep-slate": "#0f172a","primary-fixed": "#00fbfb","surface-variant": "#2f353c",
+        "neon-cyan": "#00ffff","on-tertiary-container": "#5c647a","glass-surface": "rgba(30, 41, 59, 0.7)",
+        "secondary-fixed-dim": "#ffabf3","secondary": "#ffabf3","surface-tint": "#00dddd",
+        "surface-container": "#1a2026","on-primary": "#003737","tertiary-container": "#dae2fd",
+        "on-surface": "#dde3eb","outline-variant": "#3a4a49","surface-container-low": "#161c22",
+        "secondary-fixed": "#ffd7f5","surface-container-highest": "#2f353c"
+      },
+      "borderRadius": {"DEFAULT": "0.25rem","lg": "0.5rem","xl": "0.75rem","full": "9999px"},
+      "spacing": {
+        "stack-md": "1rem","stack-lg": "2rem","reveal-offset": "30px","stack-sm": "0.5rem",
+        "gutter": "1.5rem","section-gap": "8rem","container-max": "1200px","section-gap-mobile": "4rem"
+      },
+      "fontFamily": {
+        "body-md": ["Inter"],"body-lg": ["Inter"],"display-lg-mobile": ["Outfit"],"display-lg": ["Outfit"],
+        "headline-sm": ["Outfit"],"headline-md": ["Outfit"],"label-sm": ["Inter"],"label-md": ["Inter"]
+      },
+      "fontSize": {
+        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+        "display-lg-mobile": ["40px", {"lineHeight": "1.2", "fontWeight": "700"}],
+        "display-lg": ["56px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+        "headline-sm": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+        "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+        "label-sm": ["12px", {"lineHeight": "1.2", "letterSpacing": "0.1em", "fontWeight": "600"}],
+        "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "500"}]
       }
-    </script>
-<style>
-        body {
-            background-color: #0e141a;
-            color: #dde3eb;
-            overflow-x: hidden;
-        }
-        #networkCanvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            pointer-events: none;
-        }
-        .glass-card {
-            background: rgba(30, 41, 59, 0.4);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.12);
-            transition: all 0.3s ease-out;
-        }
-        .glass-card:hover {
-            border-color: #00ffff;
-            box-shadow: 0 0 20px rgba(0, 255, 255, 0.15);
-        }
-        .glow-cyan {
-            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
-        }
-        .glow-magenta {
-            text-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
-        }
-        .reveal {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-        }
-        .reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        .sidebar-sticky {
-            position: sticky;
-            top: 100px;
-        }
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            vertical-align: middle;
-        }
-        html {
-            scroll-padding-top: 100px; /* Offset for sticky header */
-        }
-    </style>
-<style>
-@media (max-width: 768px) {
-  /* canvas remains visible on mobile */
+    },
+  },
 }
-</style>
+</script>
 <style>
-@media (max-width: 768px) {
-  .sidebar-sticky { position: static; top: auto; }
-}
-</style>
-<style>
-html { scroll-behavior: auto; }
-@media (max-width: 768px) {
-  .reveal, .reveal.visible { opacity: 1 !important; transform: none !important; transition: none !important; }
-}
-</style>
-</style>
-<style>
-@media (max-width: 768px) {
+  body { background-color: #0e141a; color: #dde3eb; overflow-x: hidden; }
+  #networkCanvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
   .glass-card {
-    transition: none !important;
+    background: rgba(30, 41, 59, 0.4);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    transition: all 0.3s ease-out;
   }
-  .glass-card:hover {
-    border-color: rgba(255, 255, 255, 0.12) !important;
-    box-shadow: none !important;
-  }
-}
+  .glass-card:hover { border-color: #00ffff; box-shadow: 0 0 20px rgba(0, 255, 255, 0.15); }
+  .glow-cyan { text-shadow: 0 0 10px rgba(0, 255, 255, 0.5); }
+  .glow-magenta { text-shadow: 0 0 10px rgba(255, 0, 255, 0.5); }
+  .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  .sidebar-sticky { position: sticky; top: 100px; }
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+  html { scroll-padding-top: 100px; }
+</style>
+<style>
+  @media (max-width: 768px) { .sidebar-sticky { position: static; top: auto; } }
+  @media (max-width: 768px) { .reveal, .reveal.visible { opacity: 1 !important; transform: none !important; transition: none !important; } }
+  @media (max-width: 768px) { .glass-card { transition: none !important; } .glass-card:hover { border-color: rgba(255,255,255,0.12) !important; box-shadow: none !important; } }
 </style>
 </head>
 <body class="font-body-md text-body-md">
-<canvas id="networkCanvas" width="1280" height="3231"></canvas>
-<!-- TopAppBar -->
+<canvas id="networkCanvas"></canvas>
+
+<!-- Header -->
 <header class="fixed top-0 w-full z-50 bg-glass-surface backdrop-blur-md border-b border-glass-border shadow-[0_4px_30px_rgba(0,0,0,0.5)] transition-all duration-300">
-<div class="flex justify-between items-center px-4 sm:px-6 lg:px-8 py-4 w-full">
-<a class="flex items-center gap-3 cursor-pointer active:scale-95" href="index.html">
-<img src="vz logo.png" alt="VZ Logo" class="w-[60px] h-[60px] object-contain">
-</a>
-<div class="absolute left-1/2 transform -translate-x-1/2">
-<span class="font-label-md text-2xl uppercase tracking-widest text-particle-magenta font-bold" style="text-shadow: 0 0 12px rgba(176,0,255,0.7), 0 0 24px rgba(176,0,255,0.4);">Resume</span>
-</div>
-<nav class="flex items-center">
-<a class="font-label-md text-label-md uppercase tracking-widest text-particle-cyan font-bold hover:text-neon-cyan transition-all duration-300" href="index.html">HOME</a>
-</nav>
-</div>
-</header>
-<main class="max-w-container-max mx-auto px-gutter pt-32 pb-12">
-<div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
-<!-- Sidebar: Identity & Academic Foundation -->
-<aside class="md:col-span-4 flex flex-col gap-stack-lg sidebar-sticky">
-<div class="glass-card p-stack-lg rounded-xl overflow-hidden" style="transform: scale(1);">
-<img loading="lazy" alt="Vidit Zainith Portrait" class="w-full h-64 object-cover rounded-lg mb-stack-md border border-glass-border" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7nO1Ab7db1UXZpIM7RpYdb05HFtNyHY5SD-HwA-rIwejNgx71Nodu7nvEKd9esxpyDjNb2iDOS0rbmhQPO1TOaIj6iyd_B9ul41nphGAKnQbLNpFYGW8jI8SKBHwGHosh5efzWM7f7rD7ETjcF3kXS2YcFfevhdtlsH2nIEIQoxdfibpLdF7odiwOvBZd1LLcJQP8yWQpradXEjhhvum8m43U-qWHILJSjygfJTxAbCd3U8J6CcznqBRkAKtk6QRUxA5nhuptow">
-<h1 class="font-headline-md text-headline-md text-neon-cyan mb-1">Vidit Zainith</h1>
-<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest mb-4">Computational Biologist Bioinformatician</p>
-<div class="space-y-3 mt-6 border-t border-glass-border pt-6"><div class="flex items-center gap-3 text-on-surface-variant hover:text-neon-cyan transition-colors"><span class="material-symbols-outlined">alternate_email</span><span class="font-label-md">viditzainith@gmail.com</span></div><div class="flex flex-col sm:flex-row gap-3 mt-4"><a class="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-glass-surface border border-neon-cyan text-neon-cyan font-label-md transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(0,255,255,0.4)] active:scale-95" href="https://github.com/VampZie" target="_blank"><span class="material-symbols-outlined text-sm">hub</span><span class="">GitHub</span></a><a class="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-glass-surface border border-neon-cyan text-neon-cyan font-label-md transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(0,255,255,0.4)] active:scale-95" href="https://www.linkedin.com/in/vidit-zainith-196960319" target="_blank"><span class="material-symbols-outlined text-sm">link</span><span class="">LinkedIn</span></a></div></div>
-</div>
-<!-- PROFILE card moved here -->
-<section class="reveal visible scroll-mt-24" id="profile">
-  <div class="glass-card p-stack-lg rounded-xl bg-gradient-to-br from-surface-container/50 to-transparent" style="transform: scale(1);">
-    <h2 class="font-headline-md text-headline-md text-neon-cyan mb-stack-md">PROFILE</h2>
-    <p class="font-body-lg text-on-surface leading-relaxed">Bioinformatics researcher specializing in <span class="text-particle-cyan">miRNA-mRNA</span>, <span class="text-particle-cyan">scRNA biology</span>, and <span class="text-particle-cyan">multi-omics</span> interpretation along with <span class="text-particle-cyan">Radiomics</span>, with a disease-focused emphasis on <span class="text-particle-cyan">neurodegenerative disorders</span>, <span class="text-particle-cyan">ischemic stroke</span>, and <span class="text-particle-cyan">vascular dementia</span>. Experienced in designing reproducible computational pipelines for <span class="text-particle-cyan">RNA-seq</span> and <span class="text-particle-cyan">single-cell RNA analysis</span>, integrating <span class="text-particle-cyan">statistical modelling</span> and <span class="text-particle-cyan">machine learning</span>. Seeking to apply advanced computational frameworks in <span class="text-particle-cyan">computational multi-omics</span>, <span class="text-particle-cyan">systems biology</span>, and <span class="text-particle-cyan">neurogenetics</span> within a research-intensive environment.</p>
+  <div class="flex justify-between items-center px-4 sm:px-6 lg:px-8 py-4 w-full">
+    <a class="flex items-center gap-3 cursor-pointer active:scale-95" href="index.html">
+      <img src="vz logo.png" alt="VZ Logo" class="w-[60px] h-[60px] object-contain">
+    </a>
+    <div class="absolute left-1/2 transform -translate-x-1/2">
+      <span class="font-label-md text-2xl uppercase tracking-widest text-particle-magenta font-bold" style="text-shadow: 0 0 12px rgba(176,0,255,0.7), 0 0 24px rgba(176,0,255,0.4);">Resume</span>
+    </div>
+    <nav class="flex items-center">
+      <a class="font-label-md text-label-md uppercase tracking-widest text-particle-cyan font-bold hover:text-neon-cyan transition-all duration-300" href="index.html">HOME</a>
+    </nav>
   </div>
-</section>
+</header>
 
-<div class="glass-card p-stack-lg rounded-xl" id="academic" style="transform: scale(1);">
-<h2 class="font-headline-sm text-headline-sm text-neon-magenta mb-stack-md flex items-center gap-2">
-<span class="material-symbols-outlined">history_edu</span>
-                        Academic Foundation
-                    </h2>
-<div class="space-y-6"><div class="relative pl-6 border-l border-particle-magenta/30"><div class="absolute -left-1.5 top-0 w-3 h-3 bg-particle-magenta rounded-full glow-magenta"></div><h3 class="font-label-md text-particle-magenta uppercase">M.SC. BIOINFORMATICS</h3><p class="font-body-md text-on-surface">Central University of Punjab, Bathinda, India</p><p class="font-label-sm text-on-surface-variant">CGPA: <span class="text-particle-cyan">( will be realese soon ) / 10</span> </p><p class="font-label-sm text-on-surface-variant">Completed: <span class="text-particle-cyan">30 May 2026</span></p><p class="font-label-sm text-on-surface-variant"><span class="text-particle-cyan">Final Results Pending</span></p></div><div class="relative pl-6 border-l border-particle-magenta/30"><div class="absolute -left-1.5 top-0 w-3 h-3 bg-particle-magenta rounded-full"></div><h3 class="font-label-md text-particle-magenta uppercase">B.SC. LIFE SCIENCES</h3><p class="font-body-md text-on-surface">Dyal Singh College, University of Delhi, India</p><p class="font-label-sm text-on-surface-variant">Graduated: <span class="text-particle-cyan">2024</span></p><p class="font-label-sm text-on-surface-variant">CGPA: <span class="text-particle-cyan">7.40 / 10</span></p></div></div>
-</div>
-<div class="glass-card p-stack-lg rounded-xl" style="transform: scale(1);"><h2 class="font-headline-sm text-headline-sm text-neon-magenta glow-magenta mb-stack-md flex items-center gap-2">PROFESSIONAL REFERENCES</h2><div class="space-y-6"><div class="space-y-1"><p class="font-label-md text-neon-cyan glow-cyan font-bold">Dr. Arti Sharma</p><p class="text-sm text-on-surface">Assistant Professor &amp; M.Sc. Dissertation Supervisor</p><p class="text-xs text-on-surface-variant">Department of Computational Sciences</p><p class="text-xs text-on-surface-variant">Central University of Punjab, Bathinda, India</p><div class="flex flex-col gap-1 mt-2"><a class="text-xs text-particle-cyan hover:underline flex items-center gap-1" href="mailto:arti.sharma@cup.edu.in"><span class="material-symbols-outlined text-xs">mail</span>arti.sharma@cup.edu.in</a><span class="material-symbols-outlined text-xs">call</span></a></div></div><hr class="border-glass-border"><div class="space-y-1"><p class="font-label-md text-neon-cyan glow-cyan font-bold">Dr. Saraboji Kadhirvel</p><p class="text-sm text-on-surface">Professor</p><p class="text-xs text-on-surface-variant">Department of Computational Sciences</p><p class="text-xs text-on-surface-variant">Central University of Punjab, Bathinda, India</p><div class="flex flex-col gap-1 mt-2"><a class="text-xs text-particle-cyan hover:underline flex items-center gap-1" href="mailto:saraboji.kadhirvel@cup.edu.in"><span class="material-symbols-outlined text-xs">mail</span>saraboji.kadhirvel@cup.edu.in</a><span class="material-symbols-outlined text-xs">call</span></a></div></div></div></div><div class="flex flex-col gap-stack-lg">
-<!-- CARD 1: WORKSHOPS -->
-<div class="glass-card p-stack-lg rounded-xl" style="transform: scale(1);">
-<h2 class="font-headline-sm text-headline-sm text-neon-magenta glow-magenta mb-stack-md flex items-center gap-2">WORKSHOPS &amp; ACADEMIC TRAINING</h2><div class="space-y-2"><div class="border-l border-glass-border pl-3"><p class="text-xs font-bold text-on-surface">National Workshop: Multi-Omics to Therapeutics</p><p class="text-[10px] text-on-surface-variant">August 2025 | Presentation: "Thermodynamic Framework for Ischemic Stroke"</p></div><div class="border-l border-glass-border pl-3"><p class="text-xs font-bold text-on-surface">National Workshop: NGS Data Analysis</p><p class="text-[10px] text-on-surface-variant">March 2025 | Focus: Variant calling, RNA-seq, and WES pipelines</p></div><div class="border-l border-glass-border pl-3"><p class="text-xs font-bold text-on-surface">Certificate Course: Metagenomics &amp; Bioinformatics</p><p class="text-[10px] text-on-surface-variant">July 2022 | Focus: Microbial diversity and sequence analysis</p></div></div><div class="flex flex-wrap gap-1 mt-2"><span class="text-[9px] text-neon-cyan border border-neon-cyan/30 px-1 rounded uppercase">MULTI-OMICS</span><span class="text-[9px] text-neon-cyan border border-neon-cyan/30 px-1 rounded uppercase">NGS</span><span class="text-[9px] text-neon-cyan border border-neon-cyan/30 px-1 rounded uppercase">WES</span><span class="text-[9px] text-neon-cyan border border-neon-cyan/30 px-1 rounded uppercase">TRANSCRIPTOMICS</span><span class="text-[9px] text-neon-cyan border border-neon-cyan/30 px-1 rounded uppercase">METAGENOMICS</span></div>
-</div>
-<!-- CARD 2: LEADERSHIP -->
-<div class="glass-card p-stack-lg rounded-xl" style="transform: scale(1);">
-<h2 class="font-headline-sm text-headline-sm text-neon-magenta glow-magenta mb-stack-md flex items-center gap-2"><span class="material-symbols-outlined">groups</span>ACADEMIC &amp; LEADERSHIP ACTIVITIES</h2><div class="space-y-2"><div class="border-l border-glass-border pl-3"><p class="text-xs font-bold text-on-surface">Rotaract Club, Dyal Singh College</p><p class="text-[10px] text-on-surface-variant">Director of Professional Development Avenue (2023 – 2024)</p><p class="text-[10px] text-on-surface-variant">Director of Still and Motion (2023 – 2024)</p></div></div><div class="flex flex-wrap gap-1 mt-2"><span class="text-[9px] text-neon-magenta border border-neon-magenta/30 px-1 rounded uppercase">LEADERSHIP</span><span class="text-[9px] text-neon-magenta border border-neon-magenta/30 px-1 rounded uppercase">ROTARACT</span><span class="text-[9px] text-neon-magenta border border-neon-magenta/30 px-1 rounded uppercase">PROFESSIONAL DEVELOPMENT</span><span class="text-[9px] text-neon-magenta border border-neon-magenta/30 px-1 rounded uppercase">EVENT MANAGEMENT</span></div>
-</div>
-</div>
-</aside>
-<!-- Main Content: Bio, Arsenal, Projects, Specialties -->
-<div class="md:col-span-8 flex flex-col gap-stack-lg">
-<!-- Technical Arsenal (Bento Grid) -->
-<section class="reveal visible scroll-mt-24" id="algorithms">
-<div class="flex items-center justify-between mb-stack-md">
-<h2 class="font-headline-md text-headline-md text-neon-cyan">COMPUTATIONAL SKILLS</h2>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-stack-md"><!-- Card 1 -->
-<div class="glass-card p-stack-md rounded-xl border-l-4 border-l-neon-cyan" style="transform: scale(1);">
-<h3 class="font-label-md text-neon-cyan uppercase mb-3 flex items-center gap-2">
- TRANSCRIPTOMICS &amp; NGS ANALYSIS
-    </h3>
-<div class="flex flex-wrap gap-2 mb-3">
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">Bulk RNA-seq</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">miRNA</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">lncRNA</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">WGS</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">WES</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">RNA-seq</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">scRNA-seq</span>
-</div>
-<p class="text-on-surface-variant text-sm mb-3">Quality control, trimming, alignment, quantification, batch correction, differential expression analysis, pathway enrichment, variant calling, trajectory inference, cell-type annotation, and cell-cell communication analysis.</p>
-<div class="flex flex-wrap gap-1"><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">FastQC</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">MultiQC</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Trimmomatic</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">fastp</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Cutadapt</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Trim Galore</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">BWA</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Bowtie</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Bowtie2</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">STAR</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">HISAT2</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">SAMtools</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">BamTools</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">BEDTools</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">GATK</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">DeepVariant</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Strelka2</span></div>
-</div>
-<!-- Card 2 -->
-<div class="glass-card p-stack-md rounded-xl border-l-4 border-l-neon-cyan" style="transform: scale(1);">
-<h3 class="font-label-md text-neon-cyan uppercase mb-3 flex items-center gap-2">
- GRAPH &amp; REGULATORY NETWORK ANALYSIS
-    </h3>
-<div class="flex flex-wrap gap-2 mb-3">
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">CellChat</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">CellPhoneDB</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">miRNA-mRNA</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">Network Biology</span>
-</div>
-<p class="text-on-surface-variant text-sm">Cell-cell communication networks, biological network topology, co-expression analysis, novel miRNA discovery, target prediction, and regulatory interaction analysis.</p>
-</div>
-<!-- Card 3 -->
-<div class="glass-card p-stack-md rounded-xl" style="transform: scale(1);"><h3 class="font-label-md text-on-surface uppercase mb-3 flex items-center gap-2"><span class="material-symbols-outlined">query_stats</span> BIOINFORMATICS &amp; STATISTICAL TOOLS</h3><div class="flex flex-wrap gap-2 mb-4"><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">DESeq2</span><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">edgeR</span><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">limma</span><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">limma-voom</span></div><p class="text-on-surface-variant text-sm mb-4">Differential expression analysis, miRNA–RNA interaction analysis, RNA structure prediction, thermodynamic modeling, biomarker discovery, and transcriptomic interpretation.</p><div class="flex flex-wrap pt-3 border-t border-glass-border gap-1"><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">miRDeep2</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">miRanda</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">dMiso</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">RNAhybrid</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">RNAcoFold</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">RNAplFold</span></div></div>
-<!-- Card 4 -->
-<div class="glass-card p-stack-md rounded-xl" style="transform: scale(1);">
-<h3 class="font-label-md text-on-surface uppercase mb-3 flex items-center gap-2"><span class="material-symbols-outlined">psychology</span> MACHINE LEARNING &amp; DEEP LEARNING</h3>
-<div class="flex flex-wrap gap-2 mb-3"><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">XGBoost</span><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">DenseNet-Tiny</span><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">ConvNeXt</span><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">EfficientNet</span></div>
-<p class="text-on-surface-variant text-sm">Supervised machine learning, deep learning, explainable AI, ensemble modeling, dimensionality reduction, clustering, and predictive analytics for biological and biomedical data.</p>
-<div class="flex flex-wrap pt-3 mt-3 border-t border-glass-border gap-1"><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">PCA</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">UMAP</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">t-SNE</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">K-Means</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">DBSCAN</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Particle Swarm Optimization</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">12-Way Gated Ensemble</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">GradCAM++</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Score-CAM</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">SHAP</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">PLI</span></div></div>
-<!-- Card 5 -->
-<div class="glass-card p-stack-md rounded-xl" style="transform: scale(1);">
-<h3 class="font-label-md text-on-surface uppercase mb-3 flex items-center gap-2">
-<span class="material-symbols-outlined">terminal</span> PROGRAMMING &amp; COMPUTATIONAL ENVIRONMENT
-    </h3>
-<div class="flex flex-wrap gap-2 mb-3">
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">Python</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">R</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">Nextflow</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">Docker</span>
-<span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">HPC/SLURM</span></div>
-<p class="text-on-surface-variant text-sm">Pipeline development, statistical computing, workflow orchestration, reproducible research, and large-scale computational execution.</p>
-</div>
-<!-- Card 6 -->
-<div class="glass-card p-stack-md rounded-xl" style="transform: scale(1);"><h3 class="font-label-md text-on-surface uppercase mb-3 flex items-center gap-2"> EXTRA SKILLS</h3><div class="flex flex-wrap gap-2 mb-3"><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">MySQL</span><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">PyMOL</span><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">GROMACS</span><span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">AutoDock Vina</span></div><p class="text-on-surface-variant text-sm mb-3">SQL database querying and management, structural biology visualization, molecular modeling, docking analysis, and computational biomolecular research workflows.</p><div class="flex flex-wrap pt-3 mt-3 border-t border-glass-border gap-1"><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Relational Databases</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">SQL Queries</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Database Management</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Protein Visualization</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Molecular Docking</span><span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Structural Biology</span></div></div></div>
-</section>
-<!-- Research Footprint -->
-<section class="reveal visible scroll-mt-24" id="research">
-<h2 class="font-headline-md text-headline-md text-neon-cyan mb-stack-md">RESEARCH EXPERIENCES</h2>
-<div class="space-y-stack-md">
-<!-- Project 1 -->
-<a class="glass-card p-stack-lg rounded-xl flex flex-col md:flex-row gap-6 items-start group transition-all duration-300 hover:scale-[1.01] hover:brightness-110" href="https://github.com/VampZie/IS_mi-mrna_thermo_validation_network" style="transform: scale(1);" target="_blank"><div class="w-full md:w-1/3 shrink-0 flex flex-col gap-3"><div class="rounded-lg overflow-hidden border border-glass-border h-48 md:h-64"><img alt="miRNA–mRNA interaction networks and RNA secondary structures" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpwCo_94tqQusfOfqHtXbNYZ5ejkHOgVqr-L_c_UxkWAeRf5RoJQr7wWYmYgUAYLPS9_6Y2nmEQLxjJzRE2xPHTGGorD36EIEhmU-9NzTZmk-J8H-Y1v2DfSzhYJ-mwHp1f5FQ0L96up0CQzr-vbbL6d59k8U10VrCp8ugwTr2yWIOgB_HZltn_t9cDclchAcoFGn6guMmugS1QUS4oFCJC6GkrTee-uasObzP0d6I0cPoRESSeogPMBmQd6Dh1sVQzxioyDpikw"></div></div><div class=""><h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-neon-cyan transition-colors">Cross-Species Thermodynamic Framework for Ischemic Stroke Progression and Evaluating Prediction</h3><p class="font-body-md text-on-surface-variant mt-2">Validation of known miRNA–mRNA regulatory states in Ischemic Stroke using structural modeling, incorporating thermodynamic stability, seed duplex formation, and structural accessibility filtering, followed by analysis of the dynamics of the miRNA–mRNA co-expression network.</p><div class="flex flex-wrap items-center gap-3 mt-4">
-<span class="text-[9px] font-bold text-neon-magenta tracking-widest uppercase px-1.5 py-0.5 border border-neon-magenta/30 rounded shrink-0">Stroke</span>
-<span class="text-[9px] font-bold text-on-surface-variant tracking-widest uppercase px-1.5 py-0.5 border border-glass-border rounded shrink-0">miRNA-mRNA</span>
-<span class="text-[9px] font-bold text-primary-fixed-dim tracking-widest uppercase px-1.5 py-0.5 border border-primary-fixed-dim/20 bg-primary-container/10 rounded shrink-0">Thermo Validation</span>
-<span class="text-[9px] font-bold text-primary-fixed-dim tracking-widest uppercase px-1.5 py-0.5 border border-primary-fixed-dim/20 bg-primary-container/10 rounded shrink-0">Biomarker Network</span>
-</div></div></a>
-<!-- Project 2 -->
-<div class="glass-card p-stack-lg rounded-xl flex flex-col md:flex-row gap-6 items-start group" style="transform: scale(1);"><div class="w-full md:w-1/3 shrink-0 rounded-lg overflow-hidden border border-glass-border h-48 md:h-64">
-<img alt="Radiogenomics integration and brain MRI analysis" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYTXwvVf0RWEHsZXk0dAr3mpdbhK0qRmeSd8vumJ44cxNqE7y9AwW9wIf--6wf0zj_npf0t_PUF2x3rMUzs8fceQJz1SCddhloGoTkjmOOuJEqr8iMl10WlfAV0I5U7Hlr56LgDF69QJuRvGBIDMMpX0WlqA90wjeknKiiwcS_OAHosEQcPSkUhEt-Zj6uM0BGeVTdhOxjipdsAnU7v16UzkTKUEhI-AoiMx2D6k6HNdpkSqTzGwR_nLsMF_0Dgv9UW9QIIG9hVQ">
-</div>
-<div>
-<a class="block group/link" href="https://github.com/VampZie/IS_Radiogenomic_Fusion_MRVI" target="_blank">
-<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-neon-cyan transition-colors">Spatially-Integrated Radiogenomic Mapping of the Neurovascular Unit in Ischemic Stroke</h3>
-</a>
-<p class="font-body-md text-on-surface-variant mt-2">Swarm-Gated Multi-Agent Radiogenomics: Autonomous ischemic localization via Particle Swarm Optimization and scRNA-seq correlative mapping in acute stroke models.</p>
-<div class="mt-4 flex flex-wrap gap-2"><span class="text-[9px] font-bold text-neon-magenta tracking-widest uppercase px-1.5 py-0.5 border border-neon-magenta/30 rounded shrink-0">Stroke</span><span class="text-[9px] font-bold text-on-surface-variant tracking-widest uppercase px-1.5 py-0.5 border border-glass-border rounded shrink-0">CT + scRNA-seq</span><span class="text-[9px] font-bold text-primary-fixed-dim tracking-widest uppercase px-1.5 py-0.5 border border-primary-fixed-dim/20 bg-primary-container/10 rounded shrink-0">Radiogenomics Fusion</span></div>
-</div></div>
-<!-- Project 3 -->
-<div class="glass-card p-stack-lg rounded-xl flex flex-col md:flex-row gap-6 items-start group" style="transform: scale(1);">
-<div class="w-full md:w-1/3 shrink-0 rounded-lg overflow-hidden border border-glass-border h-48 md:h-64">
-<img alt="isomiR discovery and biomarker identification in Vascular Dementia" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvlLCtmIiL_jWWK1EdwdelKbPR8x3a0p_bYHqihCnaMv6emDaDAnsptwSfxkmgsRjjXU9f5rbvAZzG9rKdaDzDyu3mIzGYpQA4V3twuBUIMRsPlxKzyxPgqqLCm0TTDwzG-Cznf6mG8xBfis_eCWl9eg_3G4ajFj2-pvSJiWB6Mfk2ZckElaPhaLc90TAa375pwpY7cn7yWour9ZLr5iFTNNjwDmIjWAaB7PjAW_HjoT7bfFgdq6vjdDPS5It62QDayi1P3r0BYQ">
-</div>
-<div><h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-neon-cyan transition-colors"><a href="https://github.com/VampZie/isomni-VDA" target="_blank" rel="noopener noreferrer" class="hover:underline hover:text-neon-cyan transition-all">VaD-isomir-identification</a></h3><p class="font-body-md text-on-surface-variant mt-2">Identifying regulatory isomiR biomarkers associated with Vascular Dementia through integrated transcriptomic analysis, isomiR characterization, and disease-specific biomarker discovery.</p><div class="mt-4 flex flex-wrap items-center gap-3 w-full overflow-hidden"><span class="text-[9px] font-bold text-neon-magenta tracking-widest uppercase px-1.5 py-0.5 border border-neon-magenta/30 rounded shrink-0">Vascular Dementia</span><span class="text-[9px] font-bold text-on-surface-variant tracking-widest uppercase px-1.5 py-0.5 border border-glass-border rounded shrink-0">IsomiR</span></div></div>
-</div>
-</div>
-</section>
-<!-- Specialties & Professional Service -->
-<div class="grid grid-cols-1 gap-stack-lg reveal visible">
-<section>
-<h2 class="font-headline-sm text-headline-sm text-neon-cyan mb-stack-md">Specialties</h2>
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
-<div class="flex flex-col items-center text-center gap-4 p-stack-md glass-card rounded-lg h-full" style="transform: scale(1);">
-<span class="material-symbols-outlined text-particle-cyan text-3xl">biotech</span>
-<div>
-<p class="font-label-md text-on-surface uppercase mb-1">BULK TRANSCRIPTOMICS</p>
-<p class="text-xs text-on-surface-variant">RNA-seq, miRNA, lncRNA, differential expression, pathway enrichment</p>
-</div>
-</div>
-<div class="flex flex-col items-center text-center gap-4 p-stack-md glass-card rounded-lg h-full" style="transform: scale(1);">
-<span class="material-symbols-outlined text-particle-magenta text-3xl">hub</span>
-<div>
-<p class="font-label-md text-on-surface uppercase mb-1">SINGLE-CELL OMICS</p>
-<p class="text-xs text-on-surface-variant">scRNA-seq, trajectory analysis, cell communication, clustering</p>
-</div>
-</div>
-<div class="flex flex-col items-center text-center gap-4 p-stack-md glass-card rounded-lg h-full">
-<span class="material-symbols-outlined text-particle-cyan text-3xl">query_stats</span>
-<div>
-<p class="font-label-md text-on-surface uppercase mb-1">RADIOGENOMICS</p>
-<p class="text-xs text-on-surface-variant">Radiomics, neurovascular mapping, PSO-based feature integration</p>
-</div>
-</div>
-</div>
-</section>
-<section>
-</section>
-</div>
-</div>
-</div>
+<main class="max-w-container-max mx-auto px-gutter pt-32 pb-12">
+  <!--
+    DESKTOP LAYOUT:
+    [ Left col (span-5) ]  [ Right col (span-7) ]
+    [ Profile Picture   ]  [ PROFILE Card       ]
+    [ Academic Found.   ]  [ COMP. SKILLS       ]
+    [ References        ]  [ Research           ]
+    [ Workshops         ]  [ Specialties        ]
+    [ Leadership        ]
+  -->
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+
+    <!-- ======== LEFT SIDEBAR (col-span-5) ======== -->
+    <aside class="md:col-span-5 flex flex-col gap-stack-lg sidebar-sticky">
+
+      <!-- Profile Picture Card — full width of left col -->
+      <div class="glass-card p-stack-lg rounded-xl overflow-hidden w-full" style="transform: scale(1);">
+        <img loading="lazy" alt="Vidit Zainith Portrait" class="w-full h-64 object-cover rounded-lg mb-stack-md border border-glass-border"
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7nO1Ab7db1UXZpIM7RpYdb05HFtNyHY5SD-HwA-rIwejNgx71Nodu7nvEKd9esxpyDjNb2iDOS0rbmhQPO1TOaIj6iyd_B9ul41nphGAKnQbLNpFYGW8jI8SKBHwGHosh5efzWM7f7rD7ETjcF3kXS2YcFfevhdtlsH2nIEIQoxdfibpLdF7odiwOvBZd1LLcJQP8yWQpradXEjhhvum8m43U-qWHILJSjygfJTxAbCd3U8J6CcznqBRkAKtk6QRUxA5nhuptow">
+        <h1 class="font-headline-md text-headline-md text-neon-cyan mb-1">Vidit Zainith</h1>
+        <p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest mb-4">Computational Biologist Bioinformatician</p>
+        <div class="space-y-3 mt-6 border-t border-glass-border pt-6">
+          <div class="flex items-center gap-3 text-on-surface-variant hover:text-neon-cyan transition-colors">
+            <span class="material-symbols-outlined">alternate_email</span>
+            <span class="font-label-md">viditzainith@gmail.com</span>
+          </div>
+          <div class="flex flex-col sm:flex-row gap-3 mt-4">
+            <a class="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-glass-surface border border-neon-cyan text-neon-cyan font-label-md transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(0,255,255,0.4)] active:scale-95"
+               href="https://github.com/VampZie" target="_blank">
+              <span class="material-symbols-outlined text-sm">hub</span><span>GitHub</span>
+            </a>
+            <a class="flex items-center justify-center gap-2 px-4 py-2 rounded-full bg-glass-surface border border-neon-cyan text-neon-cyan font-label-md transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(0,255,255,0.4)] active:scale-95"
+               href="https://www.linkedin.com/in/vidit-zainith-196960319" target="_blank">
+              <span class="material-symbols-outlined text-sm">link</span><span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Academic Foundation -->
+      <div class="glass-card p-stack-lg rounded-xl w-full" id="academic" style="transform: scale(1);">
+        <h2 class="font-headline-sm text-headline-sm text-neon-magenta mb-stack-md flex items-center gap-2">
+          <span class="material-symbols-outlined">history_edu</span> Academic Foundation
+        </h2>
+        <div class="space-y-6">
+          <div class="relative pl-6 border-l border-particle-magenta/30">
+            <div class="absolute -left-1.5 top-0 w-3 h-3 bg-particle-magenta rounded-full glow-magenta"></div>
+            <h3 class="font-label-md text-particle-magenta uppercase">M.SC. BIOINFORMATICS</h3>
+            <p class="font-body-md text-on-surface">Central University of Punjab, Bathinda, India</p>
+            <p class="font-label-sm text-on-surface-variant">CGPA: <span class="text-particle-cyan">( will be released soon ) / 10</span></p>
+            <p class="font-label-sm text-on-surface-variant">Completed: <span class="text-particle-cyan">30 May 2026</span></p>
+            <p class="font-label-sm text-on-surface-variant"><span class="text-particle-cyan">Final Results Pending</span></p>
+          </div>
+          <div class="relative pl-6 border-l border-particle-magenta/30">
+            <div class="absolute -left-1.5 top-0 w-3 h-3 bg-particle-magenta rounded-full"></div>
+            <h3 class="font-label-md text-particle-magenta uppercase">B.SC. LIFE SCIENCES</h3>
+            <p class="font-body-md text-on-surface">Dyal Singh College, University of Delhi, India</p>
+            <p class="font-label-sm text-on-surface-variant">Graduated: <span class="text-particle-cyan">2024</span></p>
+            <p class="font-label-sm text-on-surface-variant">CGPA: <span class="text-particle-cyan">7.40 / 10</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional References -->
+      <div class="glass-card p-stack-lg rounded-xl w-full" style="transform: scale(1);">
+        <h2 class="font-headline-sm text-headline-sm text-neon-magenta glow-magenta mb-stack-md">PROFESSIONAL REFERENCES</h2>
+        <div class="space-y-6">
+          <div class="space-y-1">
+            <p class="font-label-md text-neon-cyan glow-cyan font-bold">Dr. Arti Sharma</p>
+            <p class="text-sm text-on-surface">Assistant Professor &amp; M.Sc. Dissertation Supervisor</p>
+            <p class="text-xs text-on-surface-variant">Department of Computational Sciences</p>
+            <p class="text-xs text-on-surface-variant">Central University of Punjab, Bathinda, India</p>
+            <div class="flex flex-col gap-1 mt-2">
+              <a class="text-xs text-particle-cyan hover:underline flex items-center gap-1" href="mailto:arti.sharma@cup.edu.in">
+                <span class="material-symbols-outlined text-xs">mail</span>arti.sharma@cup.edu.in
+              </a>
+            </div>
+          </div>
+          <hr class="border-glass-border">
+          <div class="space-y-1">
+            <p class="font-label-md text-neon-cyan glow-cyan font-bold">Dr. Saraboji Kadhirvel</p>
+            <p class="text-sm text-on-surface">Professor</p>
+            <p class="text-xs text-on-surface-variant">Department of Computational Sciences</p>
+            <p class="text-xs text-on-surface-variant">Central University of Punjab, Bathinda, India</p>
+            <div class="flex flex-col gap-1 mt-2">
+              <a class="text-xs text-particle-cyan hover:underline flex items-center gap-1" href="mailto:saraboji.kadhirvel@cup.edu.in">
+                <span class="material-symbols-outlined text-xs">mail</span>saraboji.kadhirvel@cup.edu.in
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Workshops -->
+      <div class="glass-card p-stack-lg rounded-xl w-full" style="transform: scale(1);">
+        <h2 class="font-headline-sm text-headline-sm text-neon-magenta glow-magenta mb-stack-md">WORKSHOPS &amp; ACADEMIC TRAINING</h2>
+        <div class="space-y-2">
+          <div class="border-l border-glass-border pl-3">
+            <p class="text-xs font-bold text-on-surface">National Workshop: Multi-Omics to Therapeutics</p>
+            <p class="text-[10px] text-on-surface-variant">August 2025 | Presentation: "Thermodynamic Framework for Ischemic Stroke"</p>
+          </div>
+          <div class="border-l border-glass-border pl-3">
+            <p class="text-xs font-bold text-on-surface">National Workshop: NGS Data Analysis</p>
+            <p class="text-[10px] text-on-surface-variant">March 2025 | Focus: Variant calling, RNA-seq, and WES pipelines</p>
+          </div>
+          <div class="border-l border-glass-border pl-3">
+            <p class="text-xs font-bold text-on-surface">Certificate Course: Metagenomics &amp; Bioinformatics</p>
+            <p class="text-[10px] text-on-surface-variant">July 2022 | Focus: Microbial diversity and sequence analysis</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-1 mt-2">
+          <span class="text-[9px] text-neon-cyan border border-neon-cyan/30 px-1 rounded uppercase">MULTI-OMICS</span>
+          <span class="text-[9px] text-neon-cyan border border-neon-cyan/30 px-1 rounded uppercase">NGS</span>
+          <span class="text-[9px] text-neon-cyan border border-neon-cyan/30 px-1 rounded uppercase">WES</span>
+          <span class="text-[9px] text-neon-cyan border border-neon-cyan/30 px-1 rounded uppercase">TRANSCRIPTOMICS</span>
+          <span class="text-[9px] text-neon-cyan border border-neon-cyan/30 px-1 rounded uppercase">METAGENOMICS</span>
+        </div>
+      </div>
+
+      <!-- Leadership -->
+      <div class="glass-card p-stack-lg rounded-xl w-full" style="transform: scale(1);">
+        <h2 class="font-headline-sm text-headline-sm text-neon-magenta glow-magenta mb-stack-md flex items-center gap-2">
+          <span class="material-symbols-outlined">groups</span>ACADEMIC &amp; LEADERSHIP ACTIVITIES
+        </h2>
+        <div class="space-y-2">
+          <div class="border-l border-glass-border pl-3">
+            <p class="text-xs font-bold text-on-surface">Rotaract Club, Dyal Singh College</p>
+            <p class="text-[10px] text-on-surface-variant">Director of Professional Development Avenue (2023 – 2024)</p>
+            <p class="text-[10px] text-on-surface-variant">Director of Still and Motion (2023 – 2024)</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-1 mt-2">
+          <span class="text-[9px] text-neon-magenta border border-neon-magenta/30 px-1 rounded uppercase">LEADERSHIP</span>
+          <span class="text-[9px] text-neon-magenta border border-neon-magenta/30 px-1 rounded uppercase">ROTARACT</span>
+          <span class="text-[9px] text-neon-magenta border border-neon-magenta/30 px-1 rounded uppercase">PROFESSIONAL DEVELOPMENT</span>
+          <span class="text-[9px] text-neon-magenta border border-neon-magenta/30 px-1 rounded uppercase">EVENT MANAGEMENT</span>
+        </div>
+      </div>
+
+    </aside>
+    <!-- ======== END LEFT SIDEBAR ======== -->
+
+    <!-- ======== RIGHT MAIN CONTENT (col-span-7) ======== -->
+    <div class="md:col-span-7 flex flex-col gap-stack-lg">
+
+      <!-- PROFILE Card — sits at top of right col, same width as comp skills below -->
+      <section class="reveal visible scroll-mt-24 w-full" id="profile">
+        <div class="glass-card p-stack-lg rounded-xl bg-gradient-to-br from-surface-container/50 to-transparent w-full" style="transform: scale(1);">
+          <h2 class="font-headline-md text-headline-md text-neon-cyan mb-stack-md">PROFILE</h2>
+          <p class="font-body-lg text-on-surface leading-relaxed">
+            Bioinformatics researcher specializing in <span class="text-particle-cyan">miRNA-mRNA</span>,
+            <span class="text-particle-cyan">scRNA biology</span>, and <span class="text-particle-cyan">multi-omics</span>
+            interpretation along with <span class="text-particle-cyan">Radiomics</span>, with a disease-focused emphasis on
+            <span class="text-particle-cyan">neurodegenerative disorders</span>, <span class="text-particle-cyan">ischemic stroke</span>,
+            and <span class="text-particle-cyan">vascular dementia</span>. Experienced in designing reproducible computational pipelines
+            for <span class="text-particle-cyan">RNA-seq</span> and <span class="text-particle-cyan">single-cell RNA analysis</span>,
+            integrating <span class="text-particle-cyan">statistical modelling</span> and <span class="text-particle-cyan">machine learning</span>.
+            Seeking to apply advanced computational frameworks in <span class="text-particle-cyan">computational multi-omics</span>,
+            <span class="text-particle-cyan">systems biology</span>, and <span class="text-particle-cyan">neurogenetics</span>
+            within a research-intensive environment.
+          </p>
+        </div>
+      </section>
+
+      <!-- Computational Skills -->
+      <section class="reveal visible scroll-mt-24" id="algorithms">
+        <div class="flex items-center justify-between mb-stack-md">
+          <h2 class="font-headline-md text-headline-md text-neon-cyan">COMPUTATIONAL SKILLS</h2>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-stack-md">
+
+          <!-- Card 1 -->
+          <div class="glass-card p-stack-md rounded-xl border-l-4 border-l-neon-cyan" style="transform: scale(1);">
+            <h3 class="font-label-md text-neon-cyan uppercase mb-3">TRANSCRIPTOMICS &amp; NGS ANALYSIS</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">Bulk RNA-seq</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">miRNA</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">lncRNA</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">WGS</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">WES</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">RNA-seq</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">scRNA-seq</span>
+            </div>
+            <p class="text-on-surface-variant text-sm mb-3">Quality control, trimming, alignment, quantification, batch correction, differential expression analysis, pathway enrichment, variant calling, trajectory inference, cell-type annotation, and cell-cell communication analysis.</p>
+            <div class="flex flex-wrap gap-1">
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">FastQC</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">MultiQC</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Trimmomatic</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">fastp</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Cutadapt</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Trim Galore</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">BWA</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Bowtie</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Bowtie2</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">STAR</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">HISAT2</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">SAMtools</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">BamTools</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">BEDTools</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">GATK</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">DeepVariant</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Strelka2</span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="glass-card p-stack-md rounded-xl border-l-4 border-l-neon-cyan" style="transform: scale(1);">
+            <h3 class="font-label-md text-neon-cyan uppercase mb-3">GRAPH &amp; REGULATORY NETWORK ANALYSIS</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">CellChat</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">CellPhoneDB</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">miRNA-mRNA</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">Network Biology</span>
+            </div>
+            <p class="text-on-surface-variant text-sm">Cell-cell communication networks, biological network topology, co-expression analysis, novel miRNA discovery, target prediction, and regulatory interaction analysis.</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="glass-card p-stack-md rounded-xl" style="transform: scale(1);">
+            <h3 class="font-label-md text-on-surface uppercase mb-3 flex items-center gap-2">
+              <span class="material-symbols-outlined">query_stats</span> BIOINFORMATICS &amp; STATISTICAL TOOLS
+            </h3>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">DESeq2</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">edgeR</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">limma</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">limma-voom</span>
+            </div>
+            <p class="text-on-surface-variant text-sm mb-4">Differential expression analysis, miRNA–RNA interaction analysis, RNA structure prediction, thermodynamic modeling, biomarker discovery, and transcriptomic interpretation.</p>
+            <div class="flex flex-wrap pt-3 border-t border-glass-border gap-1">
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">miRDeep2</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">miRanda</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">dMiso</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">RNAhybrid</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">RNAcoFold</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">RNAplFold</span>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="glass-card p-stack-md rounded-xl" style="transform: scale(1);">
+            <h3 class="font-label-md text-on-surface uppercase mb-3 flex items-center gap-2">
+              <span class="material-symbols-outlined">psychology</span> MACHINE LEARNING &amp; DEEP LEARNING
+            </h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">XGBoost</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">DenseNet-Tiny</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">ConvNeXt</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">EfficientNet</span>
+            </div>
+            <p class="text-on-surface-variant text-sm">Supervised machine learning, deep learning, explainable AI, ensemble modeling, dimensionality reduction, clustering, and predictive analytics for biological and biomedical data.</p>
+            <div class="flex flex-wrap pt-3 mt-3 border-t border-glass-border gap-1">
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">PCA</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">UMAP</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">t-SNE</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">K-Means</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">DBSCAN</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Particle Swarm Optimization</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">12-Way Gated Ensemble</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">GradCAM++</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Score-CAM</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">SHAP</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">PLI</span>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="glass-card p-stack-md rounded-xl" style="transform: scale(1);">
+            <h3 class="font-label-md text-on-surface uppercase mb-3 flex items-center gap-2">
+              <span class="material-symbols-outlined">terminal</span> PROGRAMMING &amp; COMPUTATIONAL ENVIRONMENT
+            </h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">Python</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">R</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">Nextflow</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">Docker</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">HPC/SLURM</span>
+            </div>
+            <p class="text-on-surface-variant text-sm">Pipeline development, statistical computing, workflow orchestration, reproducible research, and large-scale computational execution.</p>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="glass-card p-stack-md rounded-xl" style="transform: scale(1);">
+            <h3 class="font-label-md text-on-surface uppercase mb-3">EXTRA SKILLS</h3>
+            <div class="flex flex-wrap gap-2 mb-3">
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">MySQL</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">PyMOL</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">GROMACS</span>
+              <span class="bg-primary-container/10 text-primary-fixed-dim px-2 py-1 rounded-sm text-xs font-bold border border-primary-fixed-dim/20">AutoDock Vina</span>
+            </div>
+            <p class="text-on-surface-variant text-sm mb-3">SQL database querying and management, structural biology visualization, molecular modeling, docking analysis, and computational biomolecular research workflows.</p>
+            <div class="flex flex-wrap pt-3 mt-3 border-t border-glass-border gap-1">
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Relational Databases</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">SQL Queries</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Database Management</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Protein Visualization</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Molecular Docking</span>
+              <span class="text-[10px] text-on-surface-variant border border-glass-border px-1 rounded">Structural Biology</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Research Experiences -->
+      <section class="reveal visible scroll-mt-24" id="research">
+        <h2 class="font-headline-md text-headline-md text-neon-cyan mb-stack-md">RESEARCH EXPERIENCES</h2>
+        <div class="space-y-stack-md">
+
+          <!-- Project 1 -->
+          <a class="glass-card p-stack-lg rounded-xl flex flex-col md:flex-row gap-6 items-start group transition-all duration-300 hover:scale-[1.01] hover:brightness-110"
+             href="https://github.com/VampZie/IS_mi-mrna_thermo_validation_network" style="transform: scale(1);" target="_blank">
+            <div class="w-full md:w-1/3 shrink-0">
+              <div class="rounded-lg overflow-hidden border border-glass-border h-48 md:h-64">
+                <img alt="miRNA–mRNA interaction networks" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpwCo_94tqQusfOfqHtXbNYZ5ejkHOgVqr-L_c_UxkWAeRf5RoJQr7wWYmYgUAYLPS9_6Y2nmEQLxjJzRE2xPHTGGorD36EIEhmU-9NzTZmk-J8H-Y1v2DfSzhYJ-mwHp1f5FQ0L96up0CQzr-vbbL6d59k8U10VrCp8ugwTr2yWIOgB_HZltn_t9cDclchAcoFGn6guMmugS1QUS4oFCJC6GkrTee-uasObzP0d6I0cPoRESSeogPMBmQd6Dh1sVQzxioyDpikw">
+              </div>
+            </div>
+            <div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-neon-cyan transition-colors">Cross-Species Thermodynamic Framework for Ischemic Stroke Progression and Evaluating Prediction</h3>
+              <p class="font-body-md text-on-surface-variant mt-2">Validation of known miRNA–mRNA regulatory states in Ischemic Stroke using structural modeling, incorporating thermodynamic stability, seed duplex formation, and structural accessibility filtering, followed by analysis of the dynamics of the miRNA–mRNA co-expression network.</p>
+              <div class="flex flex-wrap items-center gap-3 mt-4">
+                <span class="text-[9px] font-bold text-neon-magenta tracking-widest uppercase px-1.5 py-0.5 border border-neon-magenta/30 rounded">Stroke</span>
+                <span class="text-[9px] font-bold text-on-surface-variant tracking-widest uppercase px-1.5 py-0.5 border border-glass-border rounded">miRNA-mRNA</span>
+                <span class="text-[9px] font-bold text-primary-fixed-dim tracking-widest uppercase px-1.5 py-0.5 border border-primary-fixed-dim/20 bg-primary-container/10 rounded">Thermo Validation</span>
+                <span class="text-[9px] font-bold text-primary-fixed-dim tracking-widest uppercase px-1.5 py-0.5 border border-primary-fixed-dim/20 bg-primary-container/10 rounded">Biomarker Network</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Project 2 -->
+          <div class="glass-card p-stack-lg rounded-xl flex flex-col md:flex-row gap-6 items-start group" style="transform: scale(1);">
+            <div class="w-full md:w-1/3 shrink-0 rounded-lg overflow-hidden border border-glass-border h-48 md:h-64">
+              <img alt="Radiogenomics integration" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYTXwvVf0RWEHsZXk0dAr3mpdbhK0qRmeSd8vumJ44cxNqE7y9AwW9wIf--6wf0zj_npf0t_PUF2x3rMUzs8fceQJz1SCddhloGoTkjmOOuJEqr8iMl10WlfAV0I5U7Hlr56LgDF69QJuRvGBIDMMpX0WlqA90wjeknKiiwcS_OAHosEQcPSkUhEt-Zj6uM0BGeVTdhOxjipdsAnU7v16UzkTKUEhI-AoiMx2D6k6HNdpkSqTzGwR_nLsMF_0Dgv9UW9QIIG9hVQ">
+            </div>
+            <div>
+              <a href="https://github.com/VampZie/IS_Radiogenomic_Fusion_MRVI" target="_blank">
+                <h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-neon-cyan transition-colors">Spatially-Integrated Radiogenomic Mapping of the Neurovascular Unit in Ischemic Stroke</h3>
+              </a>
+              <p class="font-body-md text-on-surface-variant mt-2">Swarm-Gated Multi-Agent Radiogenomics: Autonomous ischemic localization via Particle Swarm Optimization and scRNA-seq correlative mapping in acute stroke models.</p>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="text-[9px] font-bold text-neon-magenta tracking-widest uppercase px-1.5 py-0.5 border border-neon-magenta/30 rounded">Stroke</span>
+                <span class="text-[9px] font-bold text-on-surface-variant tracking-widest uppercase px-1.5 py-0.5 border border-glass-border rounded">CT + scRNA-seq</span>
+                <span class="text-[9px] font-bold text-primary-fixed-dim tracking-widest uppercase px-1.5 py-0.5 border border-primary-fixed-dim/20 bg-primary-container/10 rounded">Radiogenomics Fusion</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="glass-card p-stack-lg rounded-xl flex flex-col md:flex-row gap-6 items-start group" style="transform: scale(1);">
+            <div class="w-full md:w-1/3 shrink-0 rounded-lg overflow-hidden border border-glass-border h-48 md:h-64">
+              <img alt="isomiR discovery in Vascular Dementia" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvlLCtmIiL_jWWK1EdwdelKbPR8x3a0p_bYHqihCnaMv6emDaDAnsptwSfxkmgsRjjXU9f5rbvAZzG9rKdaDzDyu3mIzGYpQA4V3twuBUIMRsPlxKzyxPgqqLCm0TTDwzG-Cznf6mG8xBfis_eCWl9eg_3G4ajFj2-pvSJiWB6Mfk2ZckElaPhaLc90TAa375pwpY7cn7yWour9ZLr5iFTNNjwDmIjWAaB7PjAW_HjoT7bfFgdq6vjdDPS5It62QDayi1P3r0BYQ">
+            </div>
+            <div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-neon-cyan transition-colors">
+                <a href="https://github.com/VampZie/isomni-VDA" target="_blank" class="hover:underline hover:text-neon-cyan transition-all">VaD-isomir-identification</a>
+              </h3>
+              <p class="font-body-md text-on-surface-variant mt-2">Identifying regulatory isomiR biomarkers associated with Vascular Dementia through integrated transcriptomic analysis, isomiR characterization, and disease-specific biomarker discovery.</p>
+              <div class="mt-4 flex flex-wrap items-center gap-3">
+                <span class="text-[9px] font-bold text-neon-magenta tracking-widest uppercase px-1.5 py-0.5 border border-neon-magenta/30 rounded">Vascular Dementia</span>
+                <span class="text-[9px] font-bold text-on-surface-variant tracking-widest uppercase px-1.5 py-0.5 border border-glass-border rounded">IsomiR</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Specialties -->
+      <section class="reveal visible">
+        <h2 class="font-headline-sm text-headline-sm text-neon-cyan mb-stack-md">Specialties</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
+          <div class="flex flex-col items-center text-center gap-4 p-stack-md glass-card rounded-lg h-full" style="transform: scale(1);">
+            <span class="material-symbols-outlined text-particle-cyan text-3xl">biotech</span>
+            <div>
+              <p class="font-label-md text-on-surface uppercase mb-1">BULK TRANSCRIPTOMICS</p>
+              <p class="text-xs text-on-surface-variant">RNA-seq, miRNA, lncRNA, differential expression, pathway enrichment</p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center text-center gap-4 p-stack-md glass-card rounded-lg h-full" style="transform: scale(1);">
+            <span class="material-symbols-outlined text-particle-magenta text-3xl">hub</span>
+            <div>
+              <p class="font-label-md text-on-surface uppercase mb-1">SINGLE-CELL OMICS</p>
+              <p class="text-xs text-on-surface-variant">scRNA-seq, trajectory analysis, cell communication, clustering</p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center text-center gap-4 p-stack-md glass-card rounded-lg h-full" style="transform: scale(1);">
+            <span class="material-symbols-outlined text-particle-cyan text-3xl">query_stats</span>
+            <div>
+              <p class="font-label-md text-on-surface uppercase mb-1">RADIOGENOMICS</p>
+              <p class="text-xs text-on-surface-variant">Radiomics, neurovascular mapping, PSO-based feature integration</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <!-- ======== END RIGHT MAIN CONTENT ======== -->
+
+  </div>
 </main>
+
 <!-- Footer -->
-<div class="w-full h-px bg-neon-cyan/30 shadow-[0_0_10px_rgba(0,255,255,0.3)]"></div><footer class="w-full bg-surface-container-lowest border-t border-glass-border py-8"><div class="max-w-container-max mx-auto px-gutter flex flex-col items-center text-center gap-6">
-<div class="space-y-2">
-<h2 class="font-headline-sm text-particle-cyan tracking-tight uppercase">VIDIT ZAINITH</h2>
-<p class="font-label-md text-neon-cyan uppercase tracking-widest">Computational Biologist • Bioinformatician • Multi-Omics Researcher</p>
-<p class="font-body-md text-on-surface-variant max-w-2xl mx-auto">Building computational frameworks for translational genomics, precision neurology, and AI-driven biomedical discovery.</p>
-</div>
-<div class="flex justify-center items-center">
-<a href="index.html">
-<img src="vz logo.png" alt="VZ Logo" class="w-12 h-12 object-contain">
-</a>
-</div>
-<p class="font-label-sm text-on-surface-variant opacity-60">© 2025 Vidit Zainith</p>
-</div></footer>
+<div class="w-full h-px bg-neon-cyan/30 shadow-[0_0_10px_rgba(0,255,255,0.3)]"></div>
+<footer class="w-full bg-surface-container-lowest border-t border-glass-border py-8">
+  <div class="max-w-container-max mx-auto px-gutter flex flex-col items-center text-center gap-6">
+    <div class="space-y-2">
+      <h2 class="font-headline-sm text-particle-cyan tracking-tight uppercase">VIDIT ZAINITH</h2>
+      <p class="font-label-md text-neon-cyan uppercase tracking-widest">Computational Biologist • Bioinformatician • Multi-Omics Researcher</p>
+      <p class="font-body-md text-on-surface-variant max-w-2xl mx-auto">Building computational frameworks for translational genomics, precision neurology, and AI-driven biomedical discovery.</p>
+    </div>
+    <div class="flex justify-center items-center">
+      <a href="index.html"><img src="vz logo.png" alt="VZ Logo" class="w-12 h-12 object-contain"></a>
+    </div>
+    <p class="font-label-sm text-on-surface-variant opacity-60">© 2025 Vidit Zainith</p>
+  </div>
+</footer>
+
 <script>
-    // Smooth Scrolling Logic (optimized for mobile)
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                const behavior = window.innerWidth < 768 ? 'auto' : 'smooth';
-                targetElement.scrollIntoView({
-                    behavior: behavior,
-                    block: 'start'
-                });
-                // Update URL hash without jumping
-                history.pushState(null, null, targetId);
-            }
-        });
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href');
+      if (targetId === '#') return;
+      const el = document.querySelector(targetId);
+      if (el) {
+        el.scrollIntoView({ behavior: window.innerWidth < 768 ? 'auto' : 'smooth', block: 'start' });
+        history.pushState(null, null, targetId);
+      }
     });
+  });
 
-    // Network Background Animation (optimized for mobile)
-    const canvas = document.getElementById('networkCanvas');
-    const ctx = canvas.getContext('2d');
-    let particles = [];
-    
-    class Particle {
-        constructor() {
-            this.init();
-        }
-        init() {
-            this.x = Math.random() * canvas.width;
-            this.y = Math.random() * canvas.height;
-            this.vx = (Math.random() - 0.5) * 0.5;
-            this.vy = (Math.random() - 0.5) * 0.5;
-            this.size = Math.random() * 2 + 1;
-            this.color = Math.random() > 0.5 ? '#00f0ff' : '#b000ff';
-        }
-        update() {
-            this.x += this.vx;
-            this.y += this.vy;
-            if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
-            if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
-        }
-        draw() {
-            ctx.beginPath();
-            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-            ctx.fillStyle = this.color;
-            ctx.shadowBlur = 10;
-            ctx.shadowColor = this.color;
-            ctx.fill();
-        }
+  const canvas = document.getElementById('networkCanvas');
+  const ctx = canvas.getContext('2d');
+  let particles = [];
+
+  class Particle {
+    constructor() { this.init(); }
+    init() {
+      this.x = Math.random() * canvas.width;
+      this.y = Math.random() * canvas.height;
+      this.vx = (Math.random() - 0.5) * 0.5;
+      this.vy = (Math.random() - 0.5) * 0.5;
+      this.size = Math.random() * 2 + 1;
+      this.color = Math.random() > 0.5 ? '#00f0ff' : '#b000ff';
     }
+    update() {
+      this.x += this.vx; this.y += this.vy;
+      if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+      if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+    }
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fillStyle = this.color;
+      ctx.shadowBlur = 10;
+      ctx.shadowColor = this.color;
+      ctx.fill();
+    }
+  }
 
-    function initParticles() {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        particles = [];
-        const count = window.innerWidth < 768 ? 40 : 100;
-        for (let i = 0; i < count; i++) {
-            particles.push(new Particle());
+  function initParticles() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    particles = [];
+    const count = window.innerWidth < 768 ? 40 : 100;
+    for (let i = 0; i < count; i++) particles.push(new Particle());
+  }
+
+  function drawLines() {
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        if (dist < 120) {
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = `rgba(0, 240, 255, ${0.2 * (1 - dist/120)})`;
+          ctx.lineWidth = 1;
+          ctx.stroke();
         }
+      }
     }
+  }
 
-    function drawLines() {
-        for (let i = 0; i < particles.length; i++) {
-            for (let j = i + 1; j < particles.length; j++) {
-                const dx = particles[i].x - particles[j].x;
-                const dy = particles[i].y - particles[j].y;
-                const dist = Math.sqrt(dx * dx + dy * dy);
-                if (dist < 120) {
-                    ctx.beginPath();
-                    ctx.moveTo(particles[i].x, particles[i].y);
-                    ctx.lineTo(particles[j].x, particles[j].y);
-                    ctx.strokeStyle = `rgba(0, 240, 255, ${0.2 * (1 - dist / 120)})`;
-                    ctx.lineWidth = 1;
-                    ctx.stroke();
-                }
-            }
-        }
-    }
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    particles.forEach(p => { p.update(); p.draw(); });
+    drawLines();
+    requestAnimationFrame(animate);
+  }
 
-    function animate() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        particles.forEach(p => {
-            p.update();
-            p.draw();
-        });
-        drawLines();
-        requestAnimationFrame(animate);
-    }
+  window.addEventListener('resize', initParticles);
+  if (canvas) { initParticles(); animate(); }
 
-    window.addEventListener('resize', initParticles);
-    if(canvas) {
-        initParticles();
-        animate();
-    }
-
-    // Simple scroll reveal for all devices
-    function reveal() {
-        var reveals = document.querySelectorAll(".reveal");
-        for (var i = 0; i < reveals.length; i++) {
-            var windowHeight = window.innerHeight;
-            var elementTop = reveals[i].getBoundingClientRect().top;
-            var elementVisible = 80;
-            if (elementTop < windowHeight - elementVisible) {
-                reveals[i].classList.add("visible");
-            }
-        }
-    }
-    window.addEventListener("scroll", reveal);
-    window.addEventListener("load", reveal);
-
-    // Interaction scale effect
-    document.querySelectorAll('.glass-card').forEach(card => {
-        card.addEventListener('mousedown', () => card.style.transform = 'scale(0.98)');
-        card.addEventListener('mouseup', () => card.style.transform = 'scale(1)');
-        card.addEventListener('mouseleave', () => card.style.transform = 'scale(1)');
+  function reveal() {
+    document.querySelectorAll('.reveal').forEach(el => {
+      if (el.getBoundingClientRect().top < window.innerHeight - 80) el.classList.add('visible');
     });
+  }
+  window.addEventListener('scroll', reveal);
+  window.addEventListener('load', reveal);
+
+  document.querySelectorAll('.glass-card').forEach(card => {
+    card.addEventListener('mousedown', () => card.style.transform = 'scale(0.98)');
+    card.addEventListener('mouseup', () => card.style.transform = 'scale(1)');
+    card.addEventListener('mouseleave', () => card.style.transform = 'scale(1)');
+  });
 </script>
-
-
 </body></html>
