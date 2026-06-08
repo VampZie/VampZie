@@ -172,6 +172,21 @@
 </style>
 <style>
 html { scroll-behavior: auto; }
+@media (max-width: 768px) {
+  .reveal, .reveal.visible { opacity: 1 !important; transform: none !important; transition: none !important; }
+}
+</style>
+</style>
+<style>
+@media (max-width: 768px) {
+  .glass-card {
+    transition: none !important;
+  }
+  .glass-card:hover {
+    border-color: rgba(255, 255, 255, 0.12) !important;
+    box-shadow: none !important;
+  }
+}
 </style>
 </head>
 <body class="font-body-md text-body-md">
@@ -368,86 +383,87 @@ html { scroll-behavior: auto; }
 <p class="font-label-sm text-on-surface-variant opacity-60">© 2025 Vidit Zainith</p>
 </div></footer>
 <script>
-    // Smooth Scrolling Logic
+    // Smooth Scrolling Logic (optimized for mobile)
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
             if (targetId === '#') return;
-            
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
+                const behavior = window.innerWidth < 768 ? 'auto' : 'smooth';
                 targetElement.scrollIntoView({
-                    behavior: 'smooth',
+                    behavior: behavior,
                     block: 'start'
                 });
-                
                 // Update URL hash without jumping
                 history.pushState(null, null, targetId);
             }
         });
     });
 
-    // Network Background Animation
-    const canvas = document.getElementById('networkCanvas');
-    const ctx = canvas.getContext('2d');
-    let particles = [];
-    const particleCount = 80;
+    // Network Background Animation (optimized for mobile)
+    if (window.innerWidth >= 768) {
+        const canvas = document.getElementById('networkCanvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        const particleCount = 80;
 
-    function init() {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        particles = [];
-        for (let i = 0; i < particleCount; i++) {
-            particles.push({
-                x: Math.random() * canvas.width,
-                y: Math.random() * canvas.height,
-                vx: (Math.random() - 0.5) * 0.5,
-                vy: (Math.random() - 0.5) * 0.5,
-                size: Math.random() * 2 + 1,
-                color: Math.random() > 0.5 ? '#00f0ff' : '#b000ff'
-            });
-        }
-    }
-
-    function animate() {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        particles.forEach((p, i) => {
-            p.x += p.vx;
-            p.y += p.vy;
-
-            if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
-            if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
-
-            ctx.beginPath();
-            ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-            ctx.fillStyle = p.color;
-            ctx.shadowBlur = 10;
-            ctx.shadowColor = p.color;
-            ctx.fill();
-
-            for (let j = i + 1; j < particles.length; j++) {
-                const p2 = particles[j];
-                const dx = p.x - p2.x;
-                const dy = p.y - p2.y;
-                const dist = Math.sqrt(dx * dx + dy * dy);
-
-                if (dist < 120) {
-                    ctx.beginPath();
-                    ctx.moveTo(p.x, p.y);
-                    ctx.lineTo(p2.x, p2.y);
-                    ctx.strokeStyle = `rgba(0, 240, 255, ${0.2 * (1 - dist / 120)})`;
-                    ctx.lineWidth = 1;
-                    ctx.stroke();
-                }
+        function init() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            particles = [];
+            for (let i = 0; i < particleCount; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    vx: (Math.random() - 0.5) * 0.5,
+                    vy: (Math.random() - 0.5) * 0.5,
+                    size: Math.random() * 2 + 1,
+                    color: Math.random() > 0.5 ? '#00f0ff' : '#b000ff'
+                });
             }
-        });
-        requestAnimationFrame(animate);
-    }
+        }
 
-    window.addEventListener('resize', init);
-    init();
-    animate();
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach((p, i) => {
+                p.x += p.vx;
+                p.y += p.vy;
+
+                if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+                if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fillStyle = p.color;
+                ctx.shadowBlur = 10;
+                ctx.shadowColor = p.color;
+                ctx.fill();
+
+                for (let j = i + 1; j < particles.length; j++) {
+                    const p2 = particles[j];
+                    const dx = p.x - p2.x;
+                    const dy = p.y - p2.y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+
+                    if (dist < 120) {
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(p2.x, p2.y);
+                        ctx.strokeStyle = `rgba(0, 240, 255, ${0.2 * (1 - dist / 120)})`;
+                        ctx.lineWidth = 1;
+                        ctx.stroke();
+                    }
+                }
+            });
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', init);
+        init();
+        animate();
+    };
 
     // Reveal Animation on Scroll
     const observerOptions = {
