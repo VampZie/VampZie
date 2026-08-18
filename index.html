@@ -124,6 +124,161 @@
     body {
       min-height: max(884px, 100dvh);
     }
+	
+	    /* ============================================================
+       BBRC ANNOUNCEMENT BAR  (new — below the 4 cards)
+       ============================================================ */
+    .pub-announce {
+      margin-top: 34px;
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius);
+      border: 1px solid rgba(245, 181, 68, 0.4);
+      background: linear-gradient(
+        100deg,
+        rgba(245, 181, 68, 0.12) 0%,
+        rgba(245, 181, 68, 0.05) 45%,
+        rgba(124, 92, 255, 0.08) 100%
+      );
+      padding: 26px 30px;
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      flex-wrap: wrap;
+      box-shadow: var(--shadow-card);
+      transition: var(--transition);
+    }
+
+    .pub-announce:hover {
+      border-color: rgba(245, 181, 68, 0.7);
+      transform: translateY(-2px);
+    }
+
+    .pub-announce::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 5px;
+      background: linear-gradient(180deg, var(--amber), #d69a2d);
+    }
+
+    .pub-announce .announce-icon {
+      flex: 0 0 auto;
+      width: 54px;
+      height: 54px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--amber-soft);
+      border: 1px solid rgba(245, 181, 68, 0.4);
+      color: var(--amber);
+    }
+
+    .pub-announce .announce-icon .material-symbols-outlined {
+      font-size: 30px;
+    }
+
+    .pub-announce .announce-body {
+      flex: 1 1 320px;
+      min-width: 260px;
+    }
+
+    .pub-announce .announce-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-family: var(--mono);
+      font-size: 10.5px;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      color: var(--amber);
+      font-weight: 700;
+      margin-bottom: 7px;
+    }
+
+    .pub-announce .announce-label .material-symbols-outlined {
+      font-size: 15px;
+    }
+
+    .pub-announce h4 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--text);
+      line-height: 1.45;
+      margin-bottom: 8px;
+    }
+
+    .pub-announce .announce-meta {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--text-dim);
+    }
+
+    .pub-announce .announce-meta .journal {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .pub-announce .announce-meta .msid {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--amber);
+      background: var(--amber-soft);
+      border: 1px solid rgba(245, 181, 68, 0.3);
+      padding: 3px 9px;
+      border-radius: 6px;
+    }
+
+    .pub-announce .announce-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--amber);
+      background: var(--amber-soft);
+      border: 1px solid rgba(245, 181, 68, 0.4);
+      padding: 8px 16px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    .pub-announce .announce-status .material-symbols-outlined {
+      font-size: 16px;
+      animation: pulse 2s infinite;
+    }
+
+    .pub-announce .announce-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--accent);
+      padding: 11px 20px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: rgba(79, 140, 255, 0.06);
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .pub-announce .announce-link:hover {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      gap: 12px;
+    }
+
+    .pub-announce .announce-link .material-symbols-outlined {
+      font-size: 18px;
+    }
   </style>
 </head>
 <body class="font-body-md text-on-background selection:bg-neon-cyan/30" data-mode="connect">
@@ -207,7 +362,7 @@
             Specializing at the intersection of systems biology and digital clinical intervention, my work focuses on deciphering the complex multi-scale architectures of <span class="text-neon-cyan font-semibold">neurovascular disorders</span>. 
         </p>
 <p class="font-body-lg text-body-lg text-on-surface leading-relaxed">
-            The <span class="text-neon-magenta font-semibold">Ischemic Emergency Protocol</span> represents a milestone in my computational journey integrating real-time spatial genomics with predictive hemodynamics to map the Cascade Atlas of the Neurovascular Unit (NVU).
+            The <span class="text-neon-magenta font-semibold">Ischemic Emergency Protocol</span> represents a milestone in my computational journey integrating single-cell spatial genomics with quantitative radiomics to map the Cascade Atlas of the Neurovascular Unit (NVU).
         </p>
 </div>
 <div class="hidden md:block relative h-full min-h-[300px] rounded-xl overflow-hidden border border-glass-border">
@@ -217,6 +372,42 @@
 </div>
 </div>
 </section>
+
+ <!-- ===== BBRC PUBLICATION ANNOUNCEMENT BAR (below the 4 cards) ===== -->
+      <div class="pub-announce" role="note" aria-label="Publication announcement">
+        <div class="announce-icon">
+          <span class="material-symbols-outlined">campaign</span>
+        </div>
+
+        <div class="announce-body">
+          <div class="announce-label">
+            <span class="material-symbols-outlined">verified</span> Publication Update
+          </div>
+          <h4>
+            5&prime; IsomiRs of miR-10b-5p &amp; miR-187-3p Regulate Neurovascular Gene Networks
+            in a Rat Model of Vascular Dementia
+          </h4>
+          <div class="announce-meta">
+            <span class="journal">Biochemical &amp; Biophysical Research Communications (Elsevier)</span>
+            <span class="msid">Manuscript ID: BBRC-26-4958</span>
+          </div>
+        </div>
+
+        <span class="announce-status">
+          <span class="material-symbols-outlined">hourglass_top</span> Under Communication
+        </span>
+
+        <a
+          class="announce-link"
+          href="https://github.com/VampZie/isomni-VDA"
+          target="_blank"
+          rel="noopener"
+        >
+          <span class="material-symbols-outlined">code</span> View Repository
+        </a>
+      </div>
+	  
+	  
 <!-- Research Section -->
 <section class="px-gutter py-section-gap-mobile lg:py-section-gap" id="research">
 <div class="max-w-[1400px] mx-auto px-6">
@@ -249,11 +440,11 @@
 <div class="reveal glass-card bg-glass-surface/50 border border-glass-border p-6 rounded-xl flex flex-col hover:border-neon-magenta/50 transition-all duration-500 glow-magenta active">
 <div class="flex items-center justify-between gap-2 mb-6">
 <span class="material-symbols-outlined text-neon-magenta text-3xl" data-icon="fusion_blender">star star star</span>
-<span class="font-label-sm text-[10px] bg-neon-magenta/10 text-neon-magenta px-2.5 py-1 rounded-sm uppercase tracking-wider flex-shrink-0">COmpleted</span>
+<span class="font-label-sm text-[10px] bg-neon-magenta/10 text-neon-magenta px-2.5 py-1 rounded-sm uppercase tracking-wider flex-shrink-0">Completed</span>
 </div>
 <h3 class="font-headline-sm text-headline-sm text-white mb-4">Radiogenomics - I (Binary Classification & Lesion Segmentation) </h3>
 <p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">
-                            Predicting the Ischemic ROI using the 3 Deep Learning models, with the help of 4 XAI forming 12 way Logic Gate for Lesion Segmentation. Each gate have have been deployed by PSO algorithm to catch more precise biological True Positive Signals.
+                            Predicting the Ischemic ROI using 3 deep learning models, with 4 XAI methods forming a 12-way Logic Gate for Lesion Segmentation. Each gate is deployed via a PSO algorithm to isolate more precise biological true-positive signals.
                         </p>
 <div class="flex flex-wrap gap-2 mb-8">
 <span class="text-[10px] px-3 py-1.5 bg-surface-variant/50 text-on-surface rounded-full border border-glass-border">CT-scan</span>
@@ -272,11 +463,11 @@
 </div>
 <h3 class="font-headline-sm text-headline-sm text-white mb-4">Cell Type Biomarkers Regulatory Analysis</h3>
 <p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">
-                            Understanding and finding the cell type specific markers, analyzing the trajectory of prominant markers with the comparative expression and functional regulations.
+                           Identifying cell-type-specific markers and analyzing the trajectories of prominent markers through comparative expression and functional regulation.
                         </p>
 <div class="flex flex-wrap gap-2 mb-8">
 <span class="text-[10px] px-3 py-1.5 bg-surface-variant/50 text-on-surface rounded-full border border-glass-border">sc-RNA</span>
-<span class="text-[10px] px-3 py-1.5 bg-surface-variant/50 text-on-surface rounded-full border border-glass-border">Trajectory, Expression, Comparative and Funcational Analysis</span>
+<span class="text-[10px] px-3 py-1.5 bg-surface-variant/50 text-on-surface rounded-full border border-glass-border">Trajectory, Expression, Comparative and Functional Analysis </span>
 <span class="text-[10px] px-3 py-1.5 bg-surface-variant/50 text-on-surface rounded-full border border-glass-border">Immune Cells, SMC , Endothelial and Platelet Cells</span>
 </div>
 <div class="w-full h-48 rounded-lg overflow-hidden border border-glass-border">
@@ -289,9 +480,9 @@
 <span class="material-symbols-outlined text-neon-cyan text-3xl" data-icon="map">star star star</span>
 <span class="font-label-sm text-[10px] bg-neon-cyan/10 text-neon-cyan px-2.5 py-1 rounded-sm uppercase tracking-wider flex-shrink-0">completed</span>
 </div>
-<h3 class="font-headline-sm text-headline-sm text-white mb-4"> Radiogenomics - II ( Fusion and Spatial NVU Integration using Atlas</h3>
+<h3 class="font-headline-sm text-headline-sm text-white mb-4"> Radiogenomics – II (Fusion & Spatial NVU Integration using Atlas) </h3>
 <p class="font-body-md text-body-md text-on-surface-variant mb-8 flex-grow">
-                            A high-resolution 3D map of the Neurovascular Unit interactions during 3 trier stages of  inflammatory cascades integrating with the scRNA Data fusing with Radiomics Results 
+                            A high-resolution 3D map of the Neurovascular Unit interactions during 3-tier stages of inflammatory cascades, integrating scRNA-seq data with radiomics results
                         </p>
 <div class="flex flex-wrap gap-2 mb-8">
 <span class="text-[10px] px-3 py-1.5 bg-surface-variant/50 text-on-surface rounded-full border border-glass-border">Spatial Mapping</span>
